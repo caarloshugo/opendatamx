@@ -29,13 +29,17 @@ body { font-family: "Droid Sans", "PT Sans Caption", arial; }
 #map { float:left; margin-top:20px; width:546px; height:auto; box-shadow: 0 10px 10px -2px gray; }
 #section-programa .title { margin:-13px 130px 0 130px !important; }
 #section-registro .title { margin:-13px 130px 0 130px !important; }
+#section-datasets .title { margin:-13px 130px 0 130px !important; }
 #sede { float:left; margin:20px 0 0 0; }
 #address-text { float:left; margin:10px 0 0 30px; width:390px; height:20px;  }
 #institutions { float:left; width:100%; margin:25px 0 0 0; }
 #cont-program { float:left; margin:20px 0 0 60px; }
 
+#desc-registro { float:left; width:630px; margin:45px 0 0 200px; font-size:18px; text-align:center; color:#999; }
+#form-registro { float:left; text-align:center; }
+#form-registro iframe { float:left; width:400px; text-align:center; margin:30px 0 0 320px; }
 
-.
+#footer { float:left; width:1200px; height:152px; border-top:2px solid #333; border-bottom:5px solid #83d31f; background:url(images/background-footer.png); background-repeat:x-repeat; }
 .table-program { width:100%; }
 .table-program tr td { float:left; color:#656565; margin:10px 0 0 10px; height:auto; }
 .table-program tr .table-msg { width:235px; }
