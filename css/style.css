@@ -36,8 +36,17 @@ body { font-family: "Droid Sans", "PT Sans Caption", arial; }
 #cont-program { float:left; margin:20px 0 0 60px; }
 
 #desc-registro { float:left; width:630px; margin:45px 0 0 200px; font-size:18px; text-align:center; color:#999; }
+#desc-datasets { float:left; width:630px; margin:45px 0 0 200px; font-size:18px; text-align:center; color:#999; }
 #form-registro { float:left; text-align:center; }
 #form-registro iframe { float:left; width:400px; text-align:center; margin:30px 0 0 320px; }
+
+#datasets { float:left; width:100%; margin:0 0 30px -30px; }
+.dataset { float:left; width:225px; height:auto; margin:40px 0 0 105px; }
+.title-dataset { float:left; width:100%; color:#333; font-size:18px; font-weight:bold; text-align:center; }
+.desc-dataset { margin-top:20px; float:left; width:100%; color:#656565; font-size:16px; text-align:justify; }
+.url-dataset { margin-top:10px; float:left; width:100%; text-align:center; }
+.url-dataset a { text-decoration:none; color:#8ad62c; font-size:14px; }
+.url-dataset a:hover { color:#009900; }
 
 #footer { float:left; width:1200px; height:152px; border-top:2px solid #333; border-bottom:5px solid #83d31f; background:url(images/background-footer.png); background-repeat:x-repeat; }
 .table-program { width:100%; }
