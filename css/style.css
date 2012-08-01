@@ -33,7 +33,7 @@ body { font-family: "Droid Sans", "PT Sans Caption", arial; }
 #sede { float:left; margin:20px 0 0 0; }
 #address-text { float:left; margin:10px 0 0 30px; width:390px; height:20px;  }
 #institutions { float:left; width:100%; margin:25px 0 0 0; }
-#cont-program { float:left; margin:20px 0 0 60px; }
+#cont-program { float:left; width:400px; margin:20px 0 0 60px; }
 
 #desc-registro { float:left; width:630px; margin:45px 0 0 200px; font-size:18px; text-align:center; color:#999; }
 #desc-datasets { float:left; width:630px; margin:45px 0 0 200px; font-size:18px; text-align:center; color:#999; }
@@ -92,6 +92,7 @@ hr { float:left; width:299px; height:2px; background-color:#e5e5e5; margin:0; to
 .logo-facebook { float:right; margin:0px 120px 0 0; }
 .logo-plus { float:left; width:50px !important;}
 .clear { clear:both; }
+.bold { font-weight:bold; }
 .buttons { 
 	width:189px; 
 	height:42px; 
@@ -113,20 +114,28 @@ hr { float:left; width:299px; height:2px; background-color:#e5e5e5; margin:0; to
 .carrusel li {
 	height: 20em;
 	width: 30em;
-	background-color: #ccc;
+	background-color: #fdfdfd;
+	border:2px solid #83d31f;
+	box-shadow: 0 7px 7px -2px gray;
 	text-align: center;
 	cursor: pointer;
+	overflow:hidden;
 }
 .carrusel	li.roundabout-in-focus {
-		cursor: default;
-	}
-.carrusel li span {
-	display: block;
-	padding-top: 6em;
+	cursor: default;
 }
 
+.carrusel li span {
+	display: block;
+	color:#333;
+}
+
+.carrusel li .desc { font-size:16px; display:inline !important; float:left; text-align:justify !important; padding:0 10px 0 10px; margin-top:10px; }
+.carrusel li .desc .bold { margin-top:5px; }
+.li-title { font-size:18px; font-weight:bold; }
 
 #IrArriba {
+overflow:hidden;
 position: fixed;
 bottom: 30px; /* Distancia desde abajo */
 right: 30px; /* Distancia desde la derecha */
