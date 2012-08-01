@@ -1,4 +1,4 @@
-body { font-family: "Droid Sans", "PT Sans Caption", arial; }
+body { font-family: "Droid Sans", "PT Sans Caption", arial; overflow-x:hidden;  }
 
 #container { width:1200px; height:auto; margin:0 auto; margin-top:-10px; }
 #header { float:left; width:100%; height:614px; background:url(images/background.png); background-repeat:no-repeat; }
