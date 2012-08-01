@@ -37,6 +37,7 @@ body { font-family: "Droid Sans", "PT Sans Caption", arial; }
 
 #desc-registro { float:left; width:630px; margin:45px 0 0 200px; font-size:18px; text-align:center; color:#999; }
 #desc-datasets { float:left; width:630px; margin:45px 0 0 200px; font-size:18px; text-align:center; color:#999; }
+#desc-necesidades { float:left; width:630px; margin:45px 0 0 200px; font-size:18px; text-align:center; color:#999; }
 #form-registro { float:left; text-align:center; }
 #form-registro iframe { float:left; width:400px; text-align:center; margin:30px 0 0 320px; }
 
@@ -47,6 +48,8 @@ body { font-family: "Droid Sans", "PT Sans Caption", arial; }
 .url-dataset { margin-top:10px; float:left; width:100%; text-align:center; }
 .url-dataset a { text-decoration:none; color:#8ad62c; font-size:14px; }
 .url-dataset a:hover { color:#009900; }
+
+#carrusel { float:left; margin:30px 0 -80px 150px; width:788px; height:489px; }
 
 #footer { float:left; width:1200px; height:152px; border-top:2px solid #333; border-bottom:5px solid #83d31f; background:url(images/background-footer.png); background-repeat:x-repeat; }
 .table-program { width:100%; }
@@ -97,4 +100,42 @@ hr { float:left; width:299px; height:2px; background-color:#e5e5e5; margin:0; to
 	-webkit-border-radius:7px;
 	background: -webkit-gradient(linear, left top, left bottom, from(#defe1f), to(#83d21f));
 	background: -moz-linear-gradient(top,  #defe1f,  #83d21f);
+}
+
+
+.carrusel {
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+	width: 42em;
+	height: 24em;
+}
+.carrusel li {
+	height: 20em;
+	width: 30em;
+	background-color: #ccc;
+	text-align: center;
+	cursor: pointer;
+}
+.carrusel	li.roundabout-in-focus {
+		cursor: default;
+	}
+.carrusel li span {
+	display: block;
+	padding-top: 6em;
+}
+
+
+#IrArriba {
+position: fixed;
+bottom: 30px; /* Distancia desde abajo */
+right: 30px; /* Distancia desde la derecha */
+}
+
+#IrArriba span {
+overflow:hidden;
+width: 60px; /* Ancho del botón */
+height: 60px; /* Alto del botón */
+display: block;
+background: url(http://lh5.googleusercontent.com/-luDGEoQ_WZE/T1Ak-gta5MI/AAAAAAAACPI/ojfEGiaNmGw/s60/flecha-arriba.png) no-repeat center center;
 }

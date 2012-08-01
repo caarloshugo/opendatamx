@@ -6,6 +6,7 @@
 	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 	<meta name="generator" content="Geany 0.18" />
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+	<script language="javascript" src ="js/jquery.js"></script>
 </head>
 
 <body>
@@ -78,7 +79,7 @@
 			<div class="clear"></div>
 			
 			<div id="h-menu">
-				<div id="logo-menu"></div>
+				<div id="logo-menu"><a href="#opendata">Logo</a></div>
 				<ul id="menu-ul">
 					<li><a href="#programa" title="Programa">Programa</a></li>
 					<li><a href="#registro" title="Registro">Registro</a></li>
@@ -95,7 +96,7 @@
 		
 		<div id="content">
 			<div id="section-opendata" class="section">
-				<hr><div class="title">&iquest;Que es OpenData.mx?</div><hr>
+				<hr><div class="title"><a name="opendata"></a>&iquest;Que es OpenData.mx?</div><hr>
 				
 				<div id="desc-opendata">
 					<span>OpenData.Mx es un espacio para todos aquellos ciudadanos entusiastas que desean promover la 
@@ -156,7 +157,7 @@
 			<div class="clear"></div>
 			
 			<div id="section-programa" class="section">
-				<hr><div class="title">Programa</div><hr>
+				<hr><div class="title"><a name="programa"></a>Programa</div><hr>
 				
 				<div class="clear"></div>
 				
@@ -227,7 +228,7 @@
 			<div class="clear"></div>
 			
 			<div id="section-registro" class="section">
-				<hr><div class="title">Registro</div><hr>
+				<hr><div class="title"><a name="registro"></a>Registro</div><hr>
 				
 				<div class="clear"></div>
 			
@@ -248,16 +249,34 @@
 			<div class="clear"></div>
 			
 			<div id="section-necesidades" class="section">
-				<hr><div class="title">Necesidades Sociales</div><hr>
+				<hr><div class="title"><a name="necesidades"></a>Necesidades Sociales</div><hr>
 				
 				<div class="clear"></div>
-			
+				
+				<div id="desc-necesidades">
+					<span>
+						Llena los datos que te piden para completar tu registro.<br />
+						Recibir&oacute;s confirmaci&oacute;n v&iacute;a email al realizar un registro exitoso.
+					</span>
+				</div>
+				
+				<div class="clear"></div>
+				
+				<div id="carrusel">
+					<ul class="carrusel">
+						<li><span>Block 1</span></li>
+						<li><span>Block 2</span></li>
+						<li><span>Block 3</span></li>
+						<li><span>Block 4</span></li>
+						<li><span>Block 5</span></li>
+					</ul>
+				</div>
 			</div>
 			
 			<div class="clear"></div>
 			
 			<div id="section-datasets" class="section">
-				<hr><div class="title">Datasets</div><hr>
+				<hr><div class="title"><a name="data-sets"></a>Datasets</div><hr>
 				
 				<div class="clear"></div>
 				
@@ -318,5 +337,40 @@
 		</div>
 	</div>
 	<script language="javascript" src ="js/social.js"></script>
+	<script language="javascript" src ="js/jquery.roundabout.min.js"></script>
+	<script>
+		jQuery(document).ready(function() {
+			jQuery('.carrusel').roundabout();
+		});
+	</script>
+	
+	<div id='IrArriba'>
+		<a href='#Arriba'><span/></a>
+	</div>
+	<script type='text/javascript'>
+		//<![CDATA[
+		// Botón para Ir Arriba
+		jQuery.noConflict();
+		jQuery(document).ready(function() {
+		jQuery("#IrArriba").hide();
+		jQuery(function () {
+		jQuery(window).scroll(function () {
+		if (jQuery(this).scrollTop() > 200) {
+		jQuery('#IrArriba').fadeIn();
+		} else {
+		jQuery('#IrArriba').fadeOut();
+		}
+		});
+		jQuery('#IrArriba a').click(function () {
+		jQuery('body,html').animate({
+		scrollTop: 0
+		}, 800);
+		return false;
+		});
+		});
+
+		});
+		//]]>
+	</script>
 </body>
 </html>
