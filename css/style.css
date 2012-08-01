@@ -20,9 +20,9 @@ body { font-family: "Droid Sans", "PT Sans Caption", arial; }
 #content { float:left; width:1200px; height:auto; }
 #desc-opendata { float:left; width:630px; margin:45px 0 0 200px; font-size:18px; text-align:center; color:#999; }
 #cont-opendata { float:left; width:980px; height:auto; margin:25px 0 0 -10px; }
-#cont-opendata .column { float:left; width:185px; height:auto; margin:25px 0 0 60px; }
+#cont-opendata .column { float:left; width:195px; height:auto; margin:25px 0 0 50px; }
 .column .title-c { float:left; color:#333; font-size:18px !important; text-align:center; margin:10px 0 0 -5px; }
-.column .text { margin-top:25px; float:left; color:#6f6f6f; font-size:16px; text-align:justify; }
+.column .text { margin:25px 0 0 10px; float:left; color:#6f6f6f; font-size:16px; text-align:left; }
 
 #address { float:left; width:565px; }
 #info-program { float:left; margin-top:20px; color:#999; font-size:18px; font-weight:bold; text-align:justify; }
@@ -43,9 +43,9 @@ body { font-family: "Droid Sans", "PT Sans Caption", arial; }
 
 #datasets { float:left; width:100%; margin:0 0 30px -30px; }
 .dataset { float:left; width:225px; height:auto; margin:40px 0 0 105px; }
-.title-dataset { float:left; width:100%; color:#333; font-size:18px; font-weight:bold; text-align:center; }
-.desc-dataset { margin-top:20px; float:left; width:100%; color:#656565; font-size:16px; text-align:justify; }
-.url-dataset { margin-top:10px; float:left; width:100%; text-align:center; }
+.title-dataset { float:left; width:100%; color:#333; font-size:18px; font-weight:bold; text-align:left; }
+.desc-dataset { margin-top:20px; float:left; width:100%; color:#656565; font-size:16px; text-align:left; }
+.url-dataset { margin-top:10px; float:left; width:100%; text-align:left; }
 .url-dataset a { text-decoration:none; color:#8ad62c; font-size:14px; }
 .url-dataset a:hover { color:#009900; }
 
@@ -86,6 +86,10 @@ hr { float:left; width:299px; height:2px; background-color:#e5e5e5; margin:0; to
 .arrow_box:after {  border: solid transparent; content: " "; height: 0; width: 0; position: absolute; pointer-events: none; } 
 .arrow_box:after { border-top-color: #83d31f; border-width:15px; margin-left:181px; }
 
+#logos { float:left; margin:60px 0 0 160px; width:100%; height:auto; }
+.logo { text-decoration:none; float:left; overflow:hidden; margin:0 0 0 100px; }
+.logo img { border:none; }
+.copy { float:left; color:#fff; width:100%; font-size:14px; text-align:center; }
 .buttons a { text-decoration:none; cursor:pointer; float:left; color:#fff; font-size:20px; margin-top:7px; padding-left:30px; font-weight:bold; }
 .twtr-widget, .twtr-doc { height:358px !important; }
 .logo-twitter  { margin-left:50px; }
