@@ -29,7 +29,7 @@ if(is_array($post)) {
 		<div class="post-social">		
 			<div class="fb-like logo-facebook" data-href="<?php echo $URL; ?>" data-send="false" data-layout="button_count" data-width="45" data-show-faces="true" data-font="arial"></div>
 		
-			<a href="https://twitter.com/share" data-url="<?php echo $URL;?>" data-text="<?php echo $post["Title"];?>" class="twitter-share-button logo-twitter" data-via="codejobs" data-lang="es" data-related="codejobs.biz" data-count="none" data-hashtags="codejobs.biz">
+			<a href="https://twitter.com/share" data-url="<?php echo $URL;?>" data-text="<?php echo $post["Title"];?>" class="twitter-share-button logo-twitter" data-via="OpenDataMX" data-lang="es" data-related="OpenDataMX" data-count="none" data-hashtags="OpenDataMX">
 				<?php echo __(_("Tweet")); ?>
 			</a>
 		</div>

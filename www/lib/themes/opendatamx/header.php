@@ -65,7 +65,7 @@
 					
 					
 					<div id="h-social-section">
-						<a href="https://twitter.com/share" data-url="http://opendata.mx" data-text="OpenDataMX" class="twitter-share-button logo-twitter" data-via="opendatamx" data-lang="es" data-related="opendatamx" data-count="none" data-hashtags="opendatamx">Twittear</a>
+						<a href="https://twitter.com/share" data-url="http://opendata.mx" data-text="OpenDataMX" class="twitter-share-button logo-twitter" data-via="OpenDataMX" data-lang="es" data-related="OpenDataMX" data-count="none" data-hashtags="OpenDataMX">Twittear</a>
 						<div class="fb-like logo-facebook"  data-href="http://opendata.mx" data-send="false" data-layout="button_count" data-width="45" data-show-faces="true" data-font="arial"></div>
 						<div class="logo-plus"><g:plusone annotation="none"></g:plusone></div>
 					</div>
