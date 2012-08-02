@@ -38,7 +38,7 @@ if(is_array($posts)) {
 			<div class="clear"></div>
 					
 			<div class="post-content">
-				<?php echo bbCode(pagebreak($post["Content"], $URL)); ?>
+				<?php echo decode(bbCode(pagebreak($post["Content"], $URL))); ?>
 			</div>
 
 			<div class="post-social">		

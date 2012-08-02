@@ -23,7 +23,7 @@ if(is_array($post)) {
 		<div class="clear"></div>
 			
 		<div class="post-content">
-			<?php echo bbCode($post["Content"]); ?>
+			<?php echo decode(bbCode($post["Content"])); ?>
 		</div>
 
 		<div class="post-social">		

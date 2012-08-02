@@ -451,7 +451,7 @@ function pageBreak($content, $URL = NULL) {
  */ 
 function POST($position = FALSE, $coding = "decode", $filter = "escape") {
 	if($coding === "clean") {
-		return $_POST[$position];
+		return str_replace("<hr />", "<!---->", $_POST[$position]);
 	} elseif($position === TRUE) {		
 		return $_POST;
 	} elseif(!$position) {
