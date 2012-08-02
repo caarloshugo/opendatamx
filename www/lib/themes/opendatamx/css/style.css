@@ -141,16 +141,16 @@ hr { float:left; width:299px; height:2px; background-color:#e5e5e5; margin:0; to
 .li-title { font-size:18px; font-weight:bold; }
 
 #IrArriba {
-overflow:hidden;
-position: fixed;
-bottom: 30px; /* Distancia desde abajo */
-right: 30px; /* Distancia desde la derecha */
+	overflow:hidden;
+	position: fixed;
+	bottom: 30px; /* Distancia desde abajo */
+	right: 30px; /* Distancia desde la derecha */
 }
 
 #IrArriba span {
-overflow:hidden;
-width: 60px; /* Ancho del botón */
-height: 60px; /* Alto del botón */
-display: block;
-background: url(images/flecha-arriba.png) no-repeat center center;
+	overflow:hidden;
+	width: 60px; /* Ancho del botón */
+	height: 60px; /* Alto del botón */
+	display: block;
+	background: url(images/flecha-arriba.png) no-repeat center center;
 }
