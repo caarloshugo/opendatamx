@@ -8,6 +8,7 @@ body { font-family: "Droid Sans", "PT Sans Caption", arial; overflow-x:hidden;  
 #menu-ul li { margin-right:40px; margin-top:15px; list-style:none; display:inline;  }
 #menu-ul li a { text-decoration:none; color:#fff; font-size:20px; }
 #menu-ul li a:hover { color:#83d31f; }
+#logo-menu { width:280px; height:54px;  float:left; margin:10px 0 0 70px; width:280px; }
 
 #content { float:left; width:1200px; height:auto; }
 #desc-opendata { float:left; width:630px; margin:45px 0 0 200px; font-size:18px; text-align:center; color:#999; }
@@ -142,5 +143,5 @@ overflow:hidden;
 width: 60px; /* Ancho del botón */
 height: 60px; /* Alto del botón */
 display: block;
-background: url(http://lh5.googleusercontent.com/-luDGEoQ_WZE/T1Ak-gta5MI/AAAAAAAACPI/ojfEGiaNmGw/s60/flecha-arriba.png) no-repeat center center;
+background: url(images/flecha-arriba.png) no-repeat center center;
 }
