@@ -15,9 +15,9 @@ $ZP["db"]["dbDriver"] = "mysqli";
 $ZP["db"]["dbHost"]   = "localhost";
 $ZP["db"]["dbUser"]   = "root";
 $ZP["db"]["dbPwd"] 	  = "";
-$ZP["db"]["dbName"]   = "taller";
+$ZP["db"]["dbName"]   = "codejobs";
 $ZP["db"]["dbPort"]   = 3306;
-$ZP["db"]["dbPfx"] 	  = "zan_";
+$ZP["db"]["dbPfx"] 	  = "muu_";
 $ZP["db"]["dbSocket"] = NULL;
 
 /**

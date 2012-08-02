@@ -1,0 +1,9 @@
+div.CodeMirror {
+    background-color: #fff;
+    border-color: #d3d3d3;
+    font-size: 0.8em;
+}
+div.filename {
+    font-family: Courier New, monospace;
+    font-weight: bold;
+}

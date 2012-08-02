@@ -8,10 +8,17 @@ if(!defined("_access")) {
 
 $routes = array(
 	0 => array(
+			"pattern"	  => "/^blog^/",
+			"application" => "blog",
+			"controller"  => "blog",
+			"method"	  => "index",
+			"params"	  => array()
+		),
+	1 => array(
 			"pattern"	  => "/^organizaciones/",
 			"application" => "default",
 			"controller"  => "default",
 			"method"	  => "orgs",
 			"params"	  => array()
-		)
+		),
 );

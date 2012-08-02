@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ZanPHP\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-05-20 13:42-0600\n"
-"PO-Revision-Date: 2012-05-20 13:47-0600\n"
+"POT-Creation-Date: 2012-05-22 00:14-0600\n"
+"PO-Revision-Date: 2012-05-22 00:15-0600\n"
 "Last-Translator: Carlos Santana <carlos@milkzoft.com>\n"
 "Language-Team: Carlos Santana <carlos@milkzoft.com>\n"
 "MIME-Version: 1.0\n"
@@ -101,6 +101,30 @@ msgstr ""
 msgid "In trash"
 msgstr ""
 
+#: www/applications/blog/controllers/blog.php:253
+msgid "Welcome to"
+msgstr ""
+
+#: www/applications/blog/controllers/blog.php:255
+msgid "this is your first post, going to your"
+msgstr ""
+
+#: www/applications/blog/controllers/blog.php:256
+msgid "Control Panel"
+msgstr ""
+
+#: www/applications/blog/controllers/blog.php:257
+msgid "and when you add a new post this post will be disappear automatically, enjoy it!"
+msgstr ""
+
+#: www/applications/blog/controllers/blog.php:259
+msgid "Hello World"
+msgstr ""
+
+#: www/applications/blog/controllers/blog.php:262
+msgid "No Comments"
+msgstr ""
+
 #: www/applications/blog/views/access.php:6
 msgid "Private post"
 msgstr ""
@@ -128,7 +152,7 @@ msgstr ""
 #: www/applications/blog/views/add.php:98
 #: www/applications/blog/views/add.php:103
 msgid "Password"
-msgstr ""
+msgstr "Senha"
 
 #: www/applications/blog/views/add.php:122
 msgid "Image for this post"
@@ -530,7 +554,7 @@ msgstr ""
 #: www/applications/forums/views/forum.php:209
 #: www/applications/forums/views/forum.php:291
 msgid "Login"
-msgstr ""
+msgstr "Login"
 
 #: www/applications/cpanel/views/login.php:9
 msgid "Incorrect Login"
@@ -642,7 +666,7 @@ msgstr ""
 #: www/applications/forums/views/forum.php:33
 #: www/applications/forums/views/forum.php:55
 msgid "Forums"
-msgstr ""
+msgstr "Fóruns"
 
 #: www/applications/forums/views/forum.php:35
 #: www/applications/forums/views/forum.php:36
@@ -651,7 +675,7 @@ msgstr ""
 
 #: www/applications/forums/views/forum.php:40
 msgid "Logout"
-msgstr ""
+msgstr "Sair"
 
 #: www/applications/forums/views/forum.php:48
 msgid "Welcome to the forums of"
@@ -971,41 +995,37 @@ msgstr ""
 msgid "Your comment"
 msgstr ""
 
-#: www/applications/users/models/users.php:354
-#: www/applications/users/models/users.php:359
-#: www/applications/users/models/users.php:391
-#: www/applications/users/models/users.php:395
-msgid "Recover Password"
-msgstr ""
+#: www/applications/users/controllers/users.php:115
+msgid "Register"
+msgstr "Registrar"
 
-#: www/applications/users/models/users.php:356
-#: www/applications/users/models/users.php:393
-msgid "To recover your password, you need to access here"
-msgstr ""
-
-#: www/applications/users/models/users.php:358
-#: www/applications/users/models/users.php:394
-#: www/applications/users/models/users.php:467
-#: www/applications/users/models/users.php:474
-msgid "You need access to this link:"
-msgstr ""
-
-#: www/applications/users/models/users.php:462
+#: www/applications/users/models/users.php:167
 msgid "Account Activation"
 msgstr ""
 
-#: www/applications/users/models/users.php:466
-#: www/applications/users/models/users.php:473
-msgid "Your account has been created"
-msgstr ""
-
-#: www/applications/users/models/users.php:468
-#: www/applications/users/models/users.php:475
-msgid "Activate account"
-msgstr ""
-
-#: www/applications/users/models/users.php:483
+#: www/applications/users/models/users.php:173
 msgid "The account has been created correctly, we will send you an e-mail so you can activate your account"
+msgstr ""
+
+#: www/applications/users/models/users.php:176
+msgid "Insert error"
+msgstr ""
+
+#: www/applications/users/models/users.php:364
+#: www/applications/users/models/users.php:369
+#: www/applications/users/models/users.php:401
+#: www/applications/users/models/users.php:405
+msgid "Recover Password"
+msgstr ""
+
+#: www/applications/users/models/users.php:366
+#: www/applications/users/models/users.php:403
+msgid "To recover your password, you need to access here"
+msgstr ""
+
+#: www/applications/users/models/users.php:368
+#: www/applications/users/models/users.php:404
+msgid "You need access to this link:"
 msgstr ""
 
 #: www/applications/users/views/add.php:29
@@ -1084,24 +1104,12 @@ msgstr ""
 msgid "The profile that you are looking for doesn't exists"
 msgstr ""
 
-#: www/applications/users/views/login.php:43
-#: www/applications/users/views/login.php:44
-#: www/applications/users/views/login.php:53
-#: www/applications/users/views/login.php:54
-msgid "Lost your password?"
+#: www/applications/users/views/new.php:15
+msgid "Join today to"
 msgstr ""
 
-#: www/applications/users/views/login.php:47
-#: www/applications/users/views/login.php:48
-msgid "Register"
-msgstr ""
-
-#: www/applications/users/views/login.php:67
-msgid "You have been authentified correctly!"
-msgstr ""
-
-#: www/applications/users/views/login.php:71
-msgid "Click on the close button below, or out of the box, to enjoy the forums!"
+#: www/applications/users/views/new.php:62
+msgid "Create my account"
 msgstr ""
 
 #: www/applications/users/views/recover.php:12
@@ -1131,6 +1139,18 @@ msgstr ""
 
 #: www/applications/users/views/register.php:53
 msgid "Click on the close button below, or out of the box, to return to the forums"
+msgstr ""
+
+#: www/applications/users/views/register_email.php:2
+msgid "Your account has been created"
+msgstr ""
+
+#: www/applications/users/views/register_email.php:6
+msgid "You need access to this link to activate your account:"
+msgstr ""
+
+#: www/applications/users/views/register_email.php:7
+msgid "Activate account"
 msgstr ""
 
 #: www/applications/videos/views/add.php:26
@@ -1286,7 +1306,7 @@ msgstr ""
 
 #: www/lib/languages/words.php:23
 msgid "Language"
-msgstr ""
+msgstr "Linguagem"
 
 #: www/lib/languages/words.php:24
 msgid "feedback"
@@ -1352,13 +1372,21 @@ msgstr ""
 msgid "Tuesday"
 msgstr ""
 
+#: www/lib/languages/words.php:40
+msgid "The email already exists"
+msgstr ""
+
+#: www/lib/languages/words.php:41
+msgid "The username already exists"
+msgstr ""
+
 #: www/lib/themes/cpanel/footer.php:6
 msgid "All rights reserved"
 msgstr ""
 
 #: www/lib/themes/cpanel/footer.php:6
 msgid "Powered by"
-msgstr ""
+msgstr "Desenvolvido por"
 
 #: www/lib/themes/cpanel/header.php:33
 #: www/lib/themes/cpanel/header.php:47
@@ -1371,7 +1399,7 @@ msgstr ""
 
 #: www/lib/themes/cpanel/header.php:35
 msgid "Online users"
-msgstr "Usuários online"
+msgstr ""
 
 #: www/lib/themes/cpanel/header.php:36
 msgid "Registered users"
@@ -1395,72 +1423,142 @@ msgstr ""
 
 #: www/lib/themes/newcodejobs/footer.php:5
 msgid "Advertising"
-msgstr ""
+msgstr "Publicidade"
 
 #: www/lib/themes/newcodejobs/footer.php:6
 msgid "Legal notice"
-msgstr ""
+msgstr "Aviso Legal"
 
 #: www/lib/themes/newcodejobs/footer.php:7
 msgid "Terms of Use"
-msgstr ""
+msgstr "Termos de uso"
 
 #: www/lib/themes/newcodejobs/footer.php:8
 msgid "About CodeJobs"
-msgstr ""
+msgstr "Sobre CodeJobs"
 
 #: www/lib/themes/newcodejobs/footer.php:9
 msgid "This site is licensed under a"
-msgstr ""
+msgstr "Este site está licenciado sob uma"
 
-#: www/lib/themes/newcodejobs/header.php:73
+#: www/lib/themes/newcodejobs/header.php:78
 msgid "Codes"
 msgstr "Códigos"
 
-#: www/lib/themes/newcodejobs/header.php:74
+#: www/lib/themes/newcodejobs/header.php:79
 msgid "Jobs"
 msgstr "Empregos"
 
-#: www/lib/themes/newcodejobs/header.php:75
+#: www/lib/themes/newcodejobs/header.php:80
 msgid "Tutorials"
-msgstr ""
+msgstr "Tutoriais"
 
-#: www/lib/themes/newcodejobs/header.php:77
+#: www/lib/themes/newcodejobs/header.php:82
 msgid "Videos"
-msgstr ""
+msgstr "Vídeos"
 
-#: www/lib/themes/newcodejobs/header.php:78
+#: www/lib/themes/newcodejobs/header.php:83
 msgid "Contact"
-msgstr ""
+msgstr "Contato"
 
-#: www/lib/themes/newcodejobs/header.php:90
+#: www/lib/themes/newcodejobs/header.php:95
 msgid "Are you new on CodeJobs?, Register!"
-msgstr ""
+msgstr "Você é novo em CodeJobs?, Registre-se!"
 
-#: www/lib/themes/newcodejobs/header.php:94
-msgid "Full name"
-msgstr ""
+#: www/lib/themes/newcodejobs/header.php:99
+msgid "Full Name"
+msgstr "Nome Completo"
 
-#: www/lib/themes/newcodejobs/header.php:97
+#: www/lib/themes/newcodejobs/header.php:102
 msgid "Register on CodeJobs!"
 msgstr ""
 
-#: www/lib/themes/newcodejobs/header.php:103
+#: www/lib/themes/newcodejobs/header.php:108
 msgid "Do you Have an account?, Login!"
-msgstr ""
+msgstr "Já possui uma conta?, Iniciar Sessão!"
 
-#: www/lib/themes/newcodejobs/header.php:107
+#: www/lib/themes/newcodejobs/header.php:112
 msgid "Username or Email"
-msgstr ""
+msgstr "Nome de usuário ou e-mail"
 
-#: www/lib/themes/newcodejobs/header.php:109
+#: www/lib/themes/newcodejobs/header.php:114
 msgid "Remember me"
+msgstr "Lembrar meu Login"
+
+#: www/lib/themes/newcodejobs/header.php:115
+msgid "Forgot your password?"
+msgstr "Esqueceu sua senha?"
+
+#: www/lib/themes/newcodejobs/header.php:130
+msgid "See my profile page"
+msgstr "Ver minha página de perfil"
+
+#: www/lib/themes/newcodejobs/header.php:134
+msgid "Direct Messages"
 msgstr ""
 
-#: www/lib/themes/newcodejobs/header.php:125
-#: www/lib/themes/newcodejobs/header.php:126
+#: www/lib/themes/newcodejobs/header.php:135
+msgid "Help"
+msgstr "Ajudar"
+
+#: www/lib/themes/newcodejobs/header.php:139
+msgid "My Codes"
+msgstr "Meus Códigos"
+
+#: www/lib/themes/newcodejobs/header.php:140
+msgid "My Jobs"
+msgstr "Meus Empregos"
+
+#: www/lib/themes/newcodejobs/header.php:141
+#, fuzzy
+msgid "My Tutorials"
+msgstr "Tutoriais"
+
+#: www/lib/themes/newcodejobs/header.php:142
+msgid "My Posts"
+msgstr "Meus Posts"
+
+#: www/lib/themes/newcodejobs/header.php:143
+msgid "My Courses"
+msgstr "Meus Cursos"
+
+#: www/lib/themes/newcodejobs/header.php:144
+msgid "My Points"
+msgstr "Meus Pontos"
+
+#: www/lib/themes/newcodejobs/header.php:148
+msgid "Publish a code"
+msgstr "Publicar um código"
+
+#: www/lib/themes/newcodejobs/header.php:149
+msgid "Publish a job"
+msgstr "Publicar um emprego"
+
+#: www/lib/themes/newcodejobs/header.php:150
+msgid "Publish a tutorial"
+msgstr "Publicar um tutorial"
+
+#: www/lib/themes/newcodejobs/header.php:151
+msgid "Publish a post"
+msgstr "Publicar um post"
+
+#: www/lib/themes/newcodejobs/header.php:155
+msgid "Update my Resume"
+msgstr "Atualizar meu currículo"
+
+#: www/lib/themes/newcodejobs/header.php:162
+msgid "Go to CPanel"
+msgstr "Vá ao Painel de Controle"
+
+#: www/lib/themes/newcodejobs/header.php:186
+#: www/lib/themes/newcodejobs/header.php:187
 msgid "Register!"
 msgstr ""
+
+#: www/lib/themes/newcodejobs/header.php:194
+#: www/lib/themes/newcodejobs/header.php:195
+msgid "Hi"
+msgstr "Oi"
 
 #: www/lib/themes/newcodejobs/right.php:3
 msgid "Follow us on Twitter"
@@ -1472,11 +1570,11 @@ msgstr ""
 
 #: www/lib/themes/newcodejobs/right.php:14
 msgid "Live broadcast"
-msgstr ""
+msgstr "Televisão ao vivo"
 
 #: www/lib/themes/newcodejobs/right.php:17
 msgid "Every Saturday in"
-msgstr ""
+msgstr "Todos os Sábados no"
 
 #: zan/classes/files.php:110
 msgid "Text File"

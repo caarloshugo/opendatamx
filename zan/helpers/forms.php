@@ -412,7 +412,7 @@ function formTextarea($attributes = FALSE) {
 	}								
 }
 
-function formSave($action = NULL, $events = TRUE) {
+function formSave($action = NULL, $events = TRUE, $ID = FALSE) {
 	if(isLang()) {
 		if($action === "save") {
 				$href = path(segment(1) ."/cpanel/add/");
@@ -427,6 +427,11 @@ function formSave($action = NULL, $events = TRUE) {
 		}
 	}
 
+
+	if($ID) {
+		$href.= $ID;
+	}
+	
 	if($events) {
 		$onclick = 'onclick="document.getElementById(\'form-add\').target=\'\'; document.getElementById(\'form-add\').action=\''. $href .'\'"';
 	} else {

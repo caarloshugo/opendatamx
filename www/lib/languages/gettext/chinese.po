@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ZanPHP\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-04-26 18:14-0600\n"
-"PO-Revision-Date: 2012-04-26 18:15-0600\n"
+"POT-Creation-Date: 2012-06-01 19:53-0600\n"
+"PO-Revision-Date: 2012-06-01 19:55-0600\n"
 "Last-Translator: Carlos Santana <carlos@milkzoft.com>\n"
 "Language-Team: Carlos Santana <carlos@santana.ws>\n"
 "MIME-Version: 1.0\n"
@@ -16,9 +16,9 @@ msgstr ""
 "X-Poedit-Basepath: /Applications/XAMPP/htdocs/ZanPHP\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: www/applications/default/controllers/default.php:20
-msgid "Hello World"
-msgstr "你好世界"
+#: www/applications/default/controllers/default.php:28
+msgid "Hello I'm Judith"
+msgstr "你好，我是朱迪思"
 
 #: www/applications/default/views/welcome.php:4
 #, fuzzy
@@ -116,7 +116,7 @@ msgstr ""
 msgid "seconds"
 msgstr "Segundos"
 
-#: zan/helpers/forms.php:437
+#: zan/helpers/forms.php:439
 msgid "Cancel"
 msgstr "Cancelar"
 
@@ -128,67 +128,76 @@ msgstr "Siguiente"
 msgid "Previous"
 msgstr "Anterior"
 
-#: zan/helpers/time.php:197
+#: zan/helpers/string.php:372
+#, fuzzy
+msgid "Read more"
+msgstr "Leer Más..."
+
+#: zan/helpers/time.php:134
+msgid "on"
+msgstr "el"
+
+#: zan/helpers/time.php:193
 msgid "yesterday"
 msgstr "ayer"
 
-#: zan/helpers/time.php:201
+#: zan/helpers/time.php:197
 msgid "before yesterday"
 msgstr "antier"
 
-#: zan/helpers/time.php:243
+#: zan/helpers/time.php:239
 msgid "more than an hour ago"
 msgstr "hace más de una hora"
 
-#: zan/helpers/time.php:285
+#: zan/helpers/time.php:281
 msgid "now"
 msgstr "ahora"
 
-#: zan/helpers/time.php:330
+#: zan/helpers/time.php:308
 msgid "January"
 msgstr "Enero"
 
-#: zan/helpers/time.php:332
+#: zan/helpers/time.php:310
 msgid "February"
 msgstr "Febrero"
 
-#: zan/helpers/time.php:334
+#: zan/helpers/time.php:312
 msgid "March"
 msgstr "Marzo"
 
-#: zan/helpers/time.php:336
+#: zan/helpers/time.php:314
 msgid "April"
 msgstr "Abril"
 
-#: zan/helpers/time.php:338
+#: zan/helpers/time.php:316
 msgid "May"
 msgstr "Mayo"
 
-#: zan/helpers/time.php:340
+#: zan/helpers/time.php:318
 msgid "June"
 msgstr "Junio"
 
-#: zan/helpers/time.php:342
+#: zan/helpers/time.php:320
 msgid "July"
 msgstr "Julio"
 
-#: zan/helpers/time.php:344
+#: zan/helpers/time.php:322
 msgid "August"
 msgstr "Agosto"
 
-#: zan/helpers/time.php:346
+#: zan/helpers/time.php:324
 msgid "September"
 msgstr "Septiembre"
 
-#: zan/helpers/time.php:348
+#: zan/helpers/time.php:326
 msgid "October"
 msgstr ""
 
-#: zan/helpers/time.php:350
+#: zan/helpers/time.php:328
 msgid "November"
 msgstr "Noviembre"
 
-#: zan/helpers/time.php:352
+#: zan/helpers/time.php:330
 msgid "December"
 msgstr "Diciembre"
 
@@ -200,6 +209,9 @@ msgstr "Diciembre"
 
 #~ msgid "Phone"
 #~ msgstr "电话"
+
+#~ msgid "Hello World!"
+#~ msgstr "你好世界"
 
 #~ msgid "Bye World"
 #~ msgstr "再见世界"
@@ -1815,14 +1827,8 @@ msgstr "Diciembre"
 #~ msgid "German"
 #~ msgstr "Alemán"
 
-#~ msgid "Read More"
-#~ msgstr "Leer Más..."
-
 #~ msgid "Share"
 #~ msgstr "Compartir"
-
-#~ msgid "on"
-#~ msgstr "el"
 
 #~ msgid "Manage Links"
 #~ msgstr "Administrar Enlaces"

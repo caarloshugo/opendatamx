@@ -9,12 +9,12 @@ if(!defined("_access")) {
 /**
  * Website
  */
-$ZP["webURL"] 	    = "http://localhost:8888/ZanPHP";
+$ZP["webURL"] 	    = "http://localhost/codejobs";
 $ZP["webName"] 	    = "ZanPHP";
 $ZP["webTheme"]     = "default";
 $ZP["webSituation"] = "Active";
 $ZP["webMessage"]   = "";
-$ZP["benchMark"]    = FALSE;
+$ZP["benchMark"]	= FALSE;
 
 /**
  * Server
@@ -32,8 +32,8 @@ $ZP["defaultApplication"] = "default";
 /**
  * Languages
  */
-$ZP["webLanguage"] = "Enlish";
-$ZP["translation"] = "gettext";
+$ZP["webLanguage"] = "Spanish";
+$ZP["translation"] = "normal";
 
 /**
  * Constants

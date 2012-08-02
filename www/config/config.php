@@ -10,11 +10,11 @@ if(!defined("_access")) {
  * Website
  */
 $ZP["webURL"] 	    = "http://local.opendata.mx";
-$ZP["webName"] 	    = "OpenDataMX";
-$ZP["webTheme"]     = "opendatamx";
+$ZP["webName"] 	    = "ZanPHP";
+$ZP["webTheme"]     = "default";
 $ZP["webSituation"] = "Active";
 $ZP["webMessage"]   = "";
-$ZP["benchMark"]    = FALSE;
+$ZP["benchMark"]	= FALSE;
 
 /**
  * Server
@@ -32,8 +32,8 @@ $ZP["defaultApplication"] = "default";
 /**
  * Languages
  */
-$ZP["webLanguage"] = "Enlish";
-$ZP["translation"] = "gettext";
+$ZP["webLanguage"] = "Spanish";
+$ZP["translation"] = "normal";
 
 /**
  * Constants

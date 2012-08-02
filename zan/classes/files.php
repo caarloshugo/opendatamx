@@ -66,7 +66,9 @@ class ZP_Files extends ZP_Load {
 	 */
 	public $fileType = NULL;
 	
-	public function __construct() {}
+	public function __construct() {
+		$this->helper("debugging");
+	}
 	
 	public function getFileInformation($filename = FALSE) {
 		if(!$this->filename and !$filename) {
@@ -168,11 +170,11 @@ class ZP_Files extends ZP_Load {
 		$filename = code(5, FALSE) ."_". slug($file["name"]) .".". $file["extension"];
 		$URL 	  = $path . $filename;		
 		
-		if(file_exists($URL)) {
+		if(file_exists($URL)) { 
 			$error["upload"]   = FALSE;
 			$error["message"]  = "The file already exists";
 			$error["filename"] = $filename; 
-		} elseif($this->fileSize > _fileSize) {
+		} elseif($this->fileSize > _fileSize) { 
 			$error["upload"]  = FALSE;
 			$error["message"] = "The file size exceed the permited limit"; 
 		} elseif($this->fileError === 1) { 
@@ -181,8 +183,8 @@ class ZP_Files extends ZP_Load {
 		} elseif($file["type"] !== $type) { 
 			$error["upload"]  = FALSE;
 			$error["message"] = "The file type is not permited"; 
-		} elseif(@move_uploaded_file($this->fileTmp, $URL)) {
-			@chmod($URL, 0777);
+		} elseif(move_uploaded_file($this->fileTmp, $URL)) {
+			chmod($URL, 0777);
 		
 			$error["upload"]   = TRUE;
 			$error["message"]  = "The file has been upload correctly"; 

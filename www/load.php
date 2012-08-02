@@ -10,13 +10,15 @@ include "requirements.php";
 
 $Load = new ZP_Load(); 
 
-$helpers = array("config", "debugging", "exceptions", "i18n", "router", "benchmark", "string", "sessions", "security");
-
-$Load->helper($helpers); 
+$Load->helper("users", "users");
 
 include "configuration.php";
 
+getOnlineUsers();
+
 if($ZP["benchMark"]) {
+	$Load->helper("benchmark");
+	
 	benchMarkStart();
 }
 

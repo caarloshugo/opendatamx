@@ -75,7 +75,7 @@
 							<a href="#programa" title="Programa">Ver programa</a>
 						</div>
 						<div class="buttons">
-							<a href="#blog" title="Blog">Visitar blog</a>
+							<a href="/blog" title="Blog">Visitar blog</a>
 						</div>
 					</div>
 				</div>
@@ -89,7 +89,7 @@
 						<li><a href="#registro" title="Registro">Registro</a></li>
 						<li><a href="#necesidades" title="Ejemplos de retos">Retos</a></li>
 						<li><a href="#data-sets" title="Data Sets">Data Sets</a></li>
-						<li><a href="#blog" title="OpenData Blog">OpenData Blog</a></li>
+						<li><a href="/blog" title="OpenData Blog">OpenData Blog</a></li>
 					</ul>
 				</div>
 				
