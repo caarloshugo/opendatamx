@@ -10,7 +10,7 @@ if(!defined("_access")) {
  * Website
  */
 $ZP["webURL"] 	    = "http://local.opendata.mx";
-$ZP["webName"] 	    = "ZanPHP";
+$ZP["webName"] 	    = "OpenDataMX";
 $ZP["webTheme"]     = "opendatamx";
 $ZP["webSituation"] = "Active";
 $ZP["webMessage"]   = "";
