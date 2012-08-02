@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<title>OpenDataMX</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="generator" content="Geany 0.18" />
+	<link rel="stylesheet" href="css/blog.css" type="text/css" media="all" />
+	<script language="javascript" src ="js/jquery.js"></script>
+</head>
+
+<body>
+	<div id="container">
+		<div id="header">
+			<div id="h-menu">
+				
+				<ul id="menu-ul">
+					<li><a href="#programa" title="Programa">Programa</a></li>
+					<li><a href="#registro" title="Registro">Registro</a></li>
+					<li><a href="#necesidades" title="Necesidades sociales">Necesidades Sociales</a></li>
+					<li><a href="#data-sets" title="Data Sets">Data Sets</a></li>
+					<li><a href="/blog" title="OpenData Blog">OpenData Blog</a></li>
+				</ul>
+			</div>
+			
+			<div class="clear"></div>
+			
+			<div class="arrow_box"></div>
+		</div>
+		
+		<div id="content">
+			
+		</div>
+		
+		<div id="footer">
+			<div id="logos">
+				<a href="http://www.fundar.org.mx" title="Fundar" class="logo">
+					<img src="css/images/logo-fundar.png" title="Fundar">
+				</a>
+				
+				<a href="#" title="SocialTIC" class="logo">
+					<img src="css/images/logo-socialtic.png" title="SocialTIC">
+				</a>
+				
+				<a href="#" title="SocialTIC" class="logo">
+					<img src="css/images/logo-socialtic.png" title="SocialTIC">
+				</a>
+			</div>
+			<span class="copy">&copy;OpendataMX</span>
+		</div>
+	</div>
+	<script language="javascript" src ="js/social.js"></script>
+	<script language="javascript" src ="js/jquery.roundabout.min.js"></script>
+	<script>
+		jQuery(document).ready(function() {
+			jQuery('.carrusel').roundabout();
+		});
+	</script>
+	
+	<div id='IrArriba'>
+		<a href='#Arriba'><span/></a>
+	</div>
+	<script type='text/javascript'>
+		//<![CDATA[
+		// Botón para Ir Arriba
+		jQuery.noConflict();
+		jQuery(document).ready(function() {
+		jQuery("#IrArriba").hide();
+		jQuery(function () {
+		jQuery(window).scroll(function () {
+		if (jQuery(this).scrollTop() > 200) {
+		jQuery('#IrArriba').fadeIn();
+		} else {
+		jQuery('#IrArriba').fadeOut();
+		}
+		});
+		jQuery('#IrArriba a').click(function () {
+		jQuery('body,html').animate({
+		scrollTop: 0
+		}, 800);
+		return false;
+		});
+		});
+
+		});
+		//]]>
+	</script>
+</body>
+</html>
