@@ -87,7 +87,9 @@
 					</div>
 					
 					<div id="institutions">
-						<span class="square"></span><span class="square-text">Instituciones Convocantes</span>
+						<div class="buttons">
+							<a href="#programa" title="Programa">Descargar programa</a>
+						</div>
 					</div>
 				</div>
 				

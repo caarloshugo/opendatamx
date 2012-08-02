@@ -21,6 +21,7 @@ class Default_Controller extends ZP_Controller {
 	}
 	
 	public function orgs() {
+		$this->Templates->theme("opendatamxblog");
 		$vars["view"] = $this->view("orgs", TRUE);
 		
 		$this->render("content", $vars);
