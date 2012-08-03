@@ -36,7 +36,7 @@
 					<li><a href="<?php print get('webURL'); ?>#registro" title="Registro">Registro</a></li>
 					<li><a href="<?php print get('webURL'); ?>#necesidades" title="Necesidades sociales">Necesidades Sociales</a></li>
 					<li><a href="<?php print get('webURL'); ?>#data-sets" title="Data Sets">Data Sets</a></li>
-					<li><a href="/blog" title="OpenData Blog">OpenData Blog</a></li>
+					<li><a href="<?php print get('webURL'); ?>/blog" title="OpenData Blog">OpenData Blog</a></li>
 				</ul>
 			</div>
 			
