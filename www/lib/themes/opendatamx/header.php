@@ -89,7 +89,7 @@
 						<li><a href="#registro" title="Registro">Registro</a></li>
 						<li><a href="#necesidades" title="Ejemplos de retos">Retos</a></li>
 						<li><a href="#data-sets" title="Data Sets">Data Sets</a></li>
-						<li><a href="<?php print get('webURL'); ?>/blog" title="OpenData Blog">OpenData Blog</a></li>
+						<li><a href="<?php print get('webURL'); ?>/blog" title="OpenData Blog">Blog</a></li>
 					</ul>
 				</div>
 				
