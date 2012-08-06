@@ -58,7 +58,7 @@
 					
 					<div id="h-extract">
 						<span>OpenDataMx es un Hackat&oacute;n de datos abiertos p&uacute;blicos donde en 36 horas
-							se desarrollar&aacute;n soluciones tecnol&ooacute;gicas creativas para resolver las
+							se desarrollar&aacute;n soluciones tecnol&oacute;gicas creativas para resolver las
 							diversas problem&aacute;ticas de la sociedad civil.
 						</span>
 					</div>
