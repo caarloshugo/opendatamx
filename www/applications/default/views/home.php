@@ -164,7 +164,7 @@
 				<div id="carrusel">
 					<ul class="carrusel">
 						<li>
-							<span class="li-title">Programas para el manejo de base de datos relacionados con seguridad</span>
+							<span class="li-title">Financiamiento a la actividad forestal por programa 2011</span>
 							<span class="desc">
 								<span class="bold">Organizacion:</span> Consejo Civil Mexicano para la Silvicultura Sostenible<br />
 								<span class="bold">Potencial:</span> visualización de datos para etadisticos para ...
