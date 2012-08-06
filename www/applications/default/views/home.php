@@ -177,8 +177,6 @@
 						</li>
 						<li><span>Block 2</span></li>
 						<li><span>Block 3</span></li>
-						<li><span>Block 4</span></li>
-						<li><span>Block 5</span></li>
 					</ul>
 				</div>
 				
