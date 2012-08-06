@@ -1,5 +1,11 @@
+<div class="center0">
+	<div class="buttons convoc">
+		<a href="<?php print get('webURL'); ?>/ConvocatoriaOSCs.pdf" title="Descargar Convocatoria">Descargar Convocatoria</a>
+	</div>
+</div>
 
 			<div id="section-registro" class="section">
+				
 				<hr><div class="title"><a name="registro"></a>Registro</div><hr>
 				
 				<div class="clear"></div>

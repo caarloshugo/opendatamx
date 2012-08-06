@@ -15,9 +15,9 @@ class Users_Controller extends ZP_Controller {
 		$this->helpers();
 		
 		$this->application = $this->app("users");
-		
+		$this->language = whichLanguage();
 		$this->Templates->theme();
-
+		$this->helper("router");
 		$this->CSS("forms");
 	}
 	

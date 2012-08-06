@@ -127,6 +127,8 @@ hr { float:left; width:299px; height:2px; background-color:#e5e5e5; margin:0; to
 	color:#333;
 }
 
+.convoc { width:300px !important; }
+.center0 { margin-left: 410px; }
 .carrusel li .desc { font-size:16px; display:inline !important; float:left; text-align:justify !important; padding:0 10px 0 10px; margin-top:10px; }
 .carrusel li .desc .bold { margin-top:5px; }
 .li-title { font-size:18px; font-weight:bold; }

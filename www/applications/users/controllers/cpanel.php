@@ -26,6 +26,11 @@ class CPanel_Controller extends ZP_Controller {
 		$this->Templates = $this->core("Templates");
 		
 		$this->Templates->theme("cpanel");
+		
+		$this->Model = ucfirst($this->application) ."_Model";
+		
+		$this->{"$this->Model"} = $this->model($this->Model);		
+		$this->Templates->theme("cpanel");
 	}
 	
 	public function index() {
@@ -125,8 +130,10 @@ class CPanel_Controller extends ZP_Controller {
 			$this->login();
 		}
 		
+		$this->helper("forms");
+		
 		$this->title("Add");
-				
+		
 		$this->CSS("forms", "cpanel");
 		
 		$Model = ucfirst($this->application) ."_Model";
@@ -138,7 +145,8 @@ class CPanel_Controller extends ZP_Controller {
 		} elseif(POST("cancel")) {
 			redirect("cpanel");
 		}
-				
+		
+		$this->vars["privileges"] = $this->$Model->getPrivileges();	
 		$this->vars["view"] = $this->view("add", TRUE, $this->application);
 		
 		$this->render("content", $this->vars);

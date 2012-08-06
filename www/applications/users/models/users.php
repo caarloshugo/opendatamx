@@ -54,6 +54,8 @@ class Users_Model extends ZP_Model {
 	}
 	
 	private function editOrSave() {
+		$this->helper(array("alerts", "time", "files"));
+		
 		$validations = array(
 			"username" => "required",
 			"email"	   => "email?",
@@ -71,16 +73,17 @@ class Users_Model extends ZP_Model {
  		}
 		
 		$data = array(
+			"Username"   => POST("username"),
 			"Pwd"		 => encrypt(POST("pwd")),
 			"Start_Date" => now(4),
 			"Code"		 => code(),
-			"Privilege"  => $privilege
+			"ID_Privilege"  => POST("privilege")
 		);
-
-		$this->Data->ignore(array("pwd", "pwd2"));
+		
+		$this->Data->ignore(array("pwd", "pwd2", "privilege"));
 
 		$this->data = $this->Data->proccess($data, $validations);
-		
+	
 		if(isset($this->data["error"])) {
 			return $this->data["error"];
 		}
@@ -88,14 +91,7 @@ class Users_Model extends ZP_Model {
 	
 	private function save() {
 		$insertID = $this->Db->insert($this->table, $this->data);
-
-		$data = array(
-			"ID_User" => $insertID,
-			"Name" 	  => POST("username")
-		);
-
-		$this->Db->insert("users_information", $data);
-
+	
 		$data = array(
 			"ID_Privilege" => POST("privilege"),
 			"ID_User"	   => $insertID
@@ -472,6 +468,10 @@ class Users_Model extends ZP_Model {
 		$data = $this->Db->find($ID, $this->table, $fields);
 		
 		return $data;
+	}
+	
+	public function getPrivileges() {
+		return $this->Db->findAll("privileges");
 	}
 	
 	public function setLike($ID, $table, $application) {

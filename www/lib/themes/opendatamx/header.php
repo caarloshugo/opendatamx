@@ -71,11 +71,8 @@
 					</div>
 
 					<div id="h-buttons">
-						<div class="buttons">
-							<a href="#programa" title="Programa">Ver programa</a>
-						</div>
-						<div class="buttons">
-							<a href="<?php print get('webURL'); ?>/blog" title="Blog">Visitar blog</a>
+						<div class="buttons orgsbtn">
+							<a href="<?php print get('webURL'); ?>/organizaciones" title="Programa"><span class="bold">Organizaciones de la sociedad civil</span> - clic aqu&iacute;</a>
 						</div>
 					</div>
 				</div>
