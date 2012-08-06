@@ -110,8 +110,10 @@ class Blog_Model extends ZP_Model {
 			"Pwd"	       => (POST("pwd")) ? POST("pwd", "encrypt") : NULL,
 			"Start_Date"   => now(4),
 			"Text_Date"    => now(2),
-			"Tags"		   => POST("tags")
+			"Tags"		   => POST("tags"),
+			"Tags_Slug"	   => slug(POST("tags", "clean"))
 		);
+		
 	
 		$this->Data->ignore(array("categories", "tags", "mural_exists", "mural", "pwd", "category", "language_category", "application", "mural_exist"));
 
@@ -266,7 +268,7 @@ class Blog_Model extends ZP_Model {
 	}
 	
 	public function getByTag($tag, $limit = FALSE) {
-		$data = $this->Db->findBySQL("(Title LIKE '%$tag%' OR Content LIKE '%$tag%' OR Tags LIKE '%$tag%') AND Language = '$this->language' AND Situation = 'Active'", $this->table, $this->fields, NULL, "ID_Post DESC", $limit);
+		$data = $this->Db->findBySQL("(Tags LIKE '%$tag%' OR Tags_Slug LIKE '%$tag%') AND Language = '$this->language' AND Situation = 'Active'", $this->table, $this->fields, NULL, "ID_Post DESC", $limit);
 		
 		return $data;
 	}

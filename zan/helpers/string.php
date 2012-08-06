@@ -185,26 +185,26 @@ function exploding($string, $URL = NULL, $separator = ",") {
 			for($i = 0; $i <= $count; $i++) {
 				if(!is_null($URL)) {
 					if($i === $count) {
-						$return .= '<a href="'. path($URL . $parts[$i]) .'" title="'. $parts[$i] .'">'. $parts[$i] .'</a>';
+						$return .= '<a href="'. path($URL . slug($parts[$i])) .'" title="'. $parts[$i] .'">'. $parts[$i] .'</a>';
 					} elseif($i === $count - 1) {
-						$return .= '<a href="'. path($URL . $parts[$i]) .'" title="'. $parts[$i] .'">'. $parts[$i] .'</a> '. __(_("and")) .' ';
+						$return .= '<a href="'. path($URL . slug($parts[$i])) .'" title="'. $parts[$i] .'">'. $parts[$i] .'</a> '. __(_("and")) .' ';
 					} else {
-						$return .= '<a href="'. path($URL . $parts[$i]) .'" title="'. $parts[$i] .'">'. $parts[$i] .'</a>, ';
+						$return .= '<a href="'. path($URL . slug($parts[$i])) .'" title="'. $parts[$i] .'">'. $parts[$i] .'</a>, ';
 					}
 				} else {
 					if($i === $count) {
-						$return .= $parts[$i];
+						$return .= slug($parts[$i]);
 					} elseif($i === $count - 1) {
-						$return .= $parts[$i] .' '. __(_("and")) .' ';
+						$return .= slug($parts[$i]) .' '. __(_("and")) .' ';
 					} else {
-						$return .= $parts[$i] .', ';
+						$return .= slug($parts[$i]) .', ';
 					}
 				}
 			}
 
 			return $return;
 		} else {
-			return '<a href="'. path($URL . $string) .'" title="'. $string .'">'. $string .'</a>';
+			return '<a href="'. path($URL . slug($string)) .'" title="'. $string .'">'. $string .'</a>';
 		}
 	}
 
