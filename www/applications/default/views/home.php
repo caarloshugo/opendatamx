@@ -68,8 +68,8 @@
 					<div id="info-program">
 						<span class="info-icon"></span>
 						<span>
-							El Hackaton tendra una duraci&oacute;n de <span class="green">36 horas,</span>
-							iniciando el viernes 24 y terminando el s&aacute;bado 25 de agosto del 2012.
+							El Hackat&oacute;n tendr&aacute; una duraci&oacute;n de <span class="green">36 horas:</span>
+							inicia el viernes 24 de agosto y termina el s&aacute;bado 25 de agosto del 2012.
 						</span>
 					</div>
 					
@@ -135,8 +135,7 @@
 			
 				<div id="desc-registro">
 					<span>
-						Llena los datos que te piden para completar tu registro.<br />
-						Nos pondremos en contacto a la brevedad.
+						Llena los datos que te piden para completar tu registro.
 					</span>
 				</div>
 				
