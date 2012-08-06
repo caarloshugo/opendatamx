@@ -166,11 +166,11 @@
 						<li>
 							<span class="li-title">Programas para el manejo de base de datos relacionados con seguridad</span>
 							<span class="desc">
-								<span class="bold">Organizacion:</span> Fundar centro de ....<br />
-								<span class="bold">Necesidad:</span> visualización de datos para etadisticos para ...
+								<span class="bold">Organizacion:</span> Consejo Civil Mexicano para la Silvicultura Sostenible<br />
+								<span class="bold">Potencial:</span> visualización de datos para etadisticos para ...
 								<span class="bold">Formatos desarrollados deseados:</span> 1.- visualización de datos para etadisticos para ... <br/> 2.- visualización de datos para etadisticos para ...
 								<span class="bold">Datasets:</span> <a href="" title="">http://fundar.org.mx</a>
-								<span class="bold">Contacto:</span> carlos@fundar.org.mx
+								<span class="bold">Contacto:</span> izuniga@prodigy.net.mx
 							</span>
 							</span>
 						</li>
