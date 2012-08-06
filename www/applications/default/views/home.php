@@ -170,7 +170,7 @@
 								<span class="bold">Potencial:</span> visualización de datos para etadisticos para ...
 								<span class="bold">Formatos desarrollados deseados:</span> 1.- visualización de datos para etadisticos para ... <br/> 2.- visualización de datos para etadisticos para ...
 								<span class="bold">Datasets:</span> <a href="" title="">http://fundar.org.mx</a>
-								<span class="bold">Contacto:</span> izuniga@prodigy.net.mx
+								<span class="bold">Contacto:</span> izuniga@prodigy.net.mx - <a href="http://ccmss.org.mx" title="ccmss">http://www.ccmss.org.mx</a>
 							</span>
 							</span>
 						</li>
