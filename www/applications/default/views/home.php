@@ -3,7 +3,7 @@
 				
 				<div id="desc-opendata">
 					<span>OpenData.Mx es un espacio para todos aquellos ciudadanos entusiastas que desean promover la 
-					transperencia del Gobierno de M&eacute;xico</span>
+					transparencia del Gobierno de M&eacute;xico</span>
 				</div>
 				
 				<div id="cont-opendata">
@@ -68,7 +68,7 @@
 					<div id="info-program">
 						<span class="info-icon"></span>
 						<span>
-							El Hackaton tendra una duraci&oacute; de <span class="green">36 horas,</span>
+							El Hackaton tendra una duraci&oacute;n de <span class="green">36 horas,</span>
 							iniciando el viernes 24 y terminando el s&aacute;bado 25 de agosto del 2012.
 						</span>
 					</div>
