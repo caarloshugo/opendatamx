@@ -136,7 +136,7 @@
 				<div id="desc-registro">
 					<span>
 						Llena los datos que te piden para completar tu registro.<br />
-						Recibir&aacute;s confirmaci&oacute;n v&iacute;a email al realizar un registro exitoso.
+						Nos pondremos en contacto a la brevedad.
 					</span>
 				</div>
 				
