@@ -24,7 +24,7 @@ class Blog_Model extends ZP_Model {
 		return $this->Db->findBySQL("Language = '$this->language' AND Situation = 'Active'", $this->table, $this->fields, NULL, "ID_Post DESC");
 	}
 	
-	public function cpanel($action, $limit = NULL, $order = "Language DESC", $search = NULL, $field = NULL, $trash = FALSE) {
+	public function cpanel($action, $limit = NULL, $order = "ID_Post ASC", $search = NULL, $field = NULL, $trash = FALSE) {
 		if($action === "edit" or $action === "save") {
 			$validation = $this->editOrSave($action);
 		
@@ -34,7 +34,7 @@ class Blog_Model extends ZP_Model {
 		}
 		
 		if($action === "all") {
-			return $this->all($trash, $order, $limit);
+			return $this->all($trash, "ID_Post DESC", $limit);
 		} elseif($action === "edit") {
 			return $this->edit();															
 		} elseif($action === "save") {
@@ -44,7 +44,8 @@ class Blog_Model extends ZP_Model {
 		}
 	}
 	
-	private function all($trash, $order, $limit) {	
+	private function all($trash, $order = "ID_Post DESC", $limit) {	
+		
 		if(!$trash) { 
 			return (SESSION("ZanUserPrivilegeID") === 1) ? $this->Db->findBySQL("Situation != 'Deleted'", $this->table, "ID_Post, Title, Author, Views, Language, Situation", NULL, $order, $limit) : $this->Db->findBySQL("ID_User = '". SESSION("ZanUserID") ."' AND Situation != 'Deleted'", $this->table, "ID_Post, Title, Author, Views, Language, Situation", NULL, $order, $limit);
 		} else {

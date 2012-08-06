@@ -630,6 +630,7 @@ class ZP_Db extends ZP_Load {
      * @return array value
      */
 	public function findBySQL($SQL, $table = NULL, $fields = "*", $group = NULL, $order = NULL, $limit = NULL) {		
+		
 		if(!is_null($group)) {
 			$SQL .= " GROUP BY ". $group;
 		}
