@@ -167,8 +167,7 @@
 							<span class="li-title">Financiamiento a la actividad forestal por programa 2011</span>
 							<span class="desc">
 								<span class="bold">Organizacion:</span> Consejo Civil Mexicano para la Silvicultura Sostenible<br />
-								<span class="bold">Potencial:</span> visualización de datos para etadisticos para ...
-								<span class="bold">Formatos desarrollados deseados:</span> 1.- visualización de datos para etadisticos para ... <br/> 2.- visualización de datos para etadisticos para ...
+								<span class="bold">Potencial:</span> El dataset tiene información por municipio, superficie apoyada y monto, desagregado por programa.
 								<span class="bold">Datasets:</span> <a href="" title="">http://fundar.org.mx</a>
 								<span class="bold">Contacto:</span> izuniga@prodigy.net.mx - <a href="http://ccmss.org.mx" title="ccmss">http://www.ccmss.org.mx</a>
 							</span>
