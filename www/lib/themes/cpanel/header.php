@@ -1,6 +1,6 @@
 <?php if(!defined("_access")) { die("Error: You don't have permission to access here..."); } ?>
 <!DOCTYPE html>
-<html lang="<?php print get("webLang"); ?>"<?php print defined("_angularjs") ? " ng-app" : "";?>>
+<html>
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<title><?php print $this->getTitle(); ?></title>

@@ -1,4 +1,5 @@
 <?php 
+	
 	if(!defined("_access")) {
 		die("Error: You don't have permission to access here..."); 
 	}
@@ -7,7 +8,7 @@
 	$ID_URL    = isset($data) ? recoverPOST("ID_URL", $data[0]["ID_URL"]) 		 : recoverPOST("ID_URL");
 	$title     = isset($data) ? recoverPOST("title", $data[0]["Title"])   		 : recoverPOST("title");		
 	$tags      = isset($data) ? recoverPOST("tags", $data[0]["Tags"])   		 : recoverPOST("tags");
-	$content   = isset($data) ? recoverPOST("content", $data[0]["Content"]) 	 : recoverPOST("content");	
+	$content   = isset($data) ? $data[0]["Content"] 	 : recoverPOST("content");	
 	$situation = isset($data) ? recoverPOST("situation", $data[0]["Situation"])  : recoverPOST("situation");				
 	$language  = isset($data) ? recoverPOST("language", $data[0]["Language"])  	 : recoverPOST("language");
 	$pwd   	   = isset($data) ? recoverPOST("pwd", $data[0]["Pwd"])				 : recoverPOST("pwd");
@@ -44,7 +45,7 @@
 				"style"  => "height: 400px; width: 690px;", 
 				"field"  => __(_("Content")), 
 				"p" 	 => TRUE, 
-				"value"  => $content
+				"value"  => decode($content)
 			));
 
 			?>
@@ -58,8 +59,8 @@
 			echo formField(NULL, __(_("Language of the post")) ."<br />". getLanguagesInput($language, "language", "select"));
 
 			$options = array(
-				0 => array("value" => 1, "option" => __(_("Yes")), "selected" => TRUE),
-				1 => array("value" => 0, "option" => __(_("No")))
+				0 => array("value" => 1, "option" => __(_("Yes"))),
+				1 => array("value" => 0, "option" => __(_("No")), "selected" => TRUE)
 			);
 
 			echo formSelect(array(
