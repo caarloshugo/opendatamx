@@ -168,8 +168,7 @@
 							<span class="desc">
 								<span class="bold">Organizacion:</span> Consejo Civil Mexicano para la Silvicultura Sostenible<br />
 								<span class="bold">Potencial:</span> El dataset tiene información por municipio, superficie apoyada y monto, desagregado por programa.
-								<span class="bold">Datasets:</span> <a href="" title="">http://fundar.org.mx</a>
-								<span class="bold">Contacto:</span> izuniga@prodigy.net.mx - <a href="http://ccmss.org.mx" title="ccmss">http://www.ccmss.org.mx</a>
+								<span class="bold">Datasets:</span> <a href="http://thedatahub.org/es/dataset/ccmss/resource/d009e5c6-20aa-4320-8bef-40b624dc66f1" title="Datasets">Financiamiento a la actividad forestal por programa 2011</a>
 							</span>
 							</span>
 						</li>
