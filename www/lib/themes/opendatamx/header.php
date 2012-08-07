@@ -74,6 +74,9 @@
 						<div class="buttons orgsbtn">
 							<a href="<?php print get('webURL'); ?>/organizaciones" title="Organizaciones de la sociedad civil"><span class="bold">Organizaciones de la sociedad civil</span> - clic aqu&iacute;</a>
 						</div>
+						<div class="buttons hackrsbtn">
+							<a href="#registro" title="Registro Hackers"><span class="bold">Registro Hackers</span></a>
+						</div>
 					</div>
 				</div>
 				

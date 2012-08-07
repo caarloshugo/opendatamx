@@ -93,8 +93,12 @@ hr { float:left; width:299px; height:2px; background-color:#e5e5e5; margin:0; to
 .logo img { border:none; }
 .copy { float:left; color:#fff; width:100%; margin-top:15px; font-size:14px; text-align:center; }
 .buttons a { text-decoration:none; cursor:pointer; float:left; color:#fff; font-size:20px; margin-top:7px; padding-left:30px; font-weight:bold; }
-.orgsbtn { margin-left:-10px !important; width:480px !important; }
+
+.orgsbtn { cursor:pointer; margin-left:-10px !important; width:480px !important; }
 .orgsbtn a {  padding-left:20px !important;  } 
+
+.hackrsbtn { cursor:pointer; margin:10px 0 0 100px !important; width:230px !important;  }
+
 .twtr-widget, .twtr-doc { height:358px !important; }
 .logo-twitter  { margin-left:50px; }
 .logo-facebook { float:right; margin:0px 120px 0 0; }
