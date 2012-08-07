@@ -3,7 +3,7 @@
 		die("Error: You don't have permission to access here..."); 
 	}
 	
-	$ID        = isset($data) ? recoverPOST("ID", $data[0]["ID_Post"]) 			 : 0;
+	$ID        = isset($data) ? recoverPOST("ID", $data[0]["ID_User"]) 			 : 0;
 	$username  = isset($data) ? recoverPOST("username", $data[0]["Username"]) 	 : recoverPOST("username");
 	$privilege = isset($data) ? recoverPOST("privilege", $data[0]["ID_Privilege"])  : recoverPOST("privilege"); 
 	$email     = isset($data) ? recoverPOST("email", $data[0]["Email"]) 		 : recoverPOST("email");

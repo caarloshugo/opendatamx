@@ -160,9 +160,9 @@ class CPanel_Controller extends ZP_Controller {
 		if((int) $ID === 0) { 
 			redirect($this->application ."/cpanel/results");
 		}
-
-		$this->title("Edit");
 		
+		$this->helper("forms");
+		$this->title("Edit");
 		$this->CSS("forms", "cpanel");
 				
 		$Model = ucfirst($this->application) ."_Model";
@@ -175,10 +175,11 @@ class CPanel_Controller extends ZP_Controller {
 			redirect("cpanel");
 		} 
 		
-		$data = $this->$Model->getByID($ID);
+		$data = $this->{"$this->Model"}->getByID($ID);
 		
 		if($data) {		
 			$this->vars["data"] = $data;
+			$this->vars["privileges"] = $this->$Model->getPrivileges();	
 			$this->vars["view"] = $this->view("add", TRUE, $this->application);
 			
 			$this->render("content", $this->vars);
@@ -222,17 +223,13 @@ class CPanel_Controller extends ZP_Controller {
 		
 		$trash = (segment(3, isLang()) === "trash") ? TRUE : FALSE;
 		
-		$total 	    = $this->CPanel_Model->total($trash);
-		$thead 	    = $this->CPanel_Model->thead("checkbox, ". getFields($this->application) .", Action", FALSE);
-		$pagination = $this->CPanel_Model->getPagination($trash);
-		$tFoot      = getTFoot($trash);
-		
-		$this->vars["message"]    = (!$tFoot) ? "Error" : NULL;
-		$this->vars["pagination"] = $pagination;
+		$this->vars["total"] 	  = $this->CPanel_Model->total($trash);
+		$this->vars["tFoot"] 	  = $this->CPanel_Model->records($trash);
+		$this->vars["message"]    = (!$this->vars["tFoot"]) ? "Error" : NULL;
+		$this->vars["pagination"] = $this->CPanel_Model->getPagination($trash);
 		$this->vars["trash"]  	  = $trash;	
-		$this->vars["search"] 	  = getSearch(); 
-		$this->vars["table"]      = getTable(__(_("Manage ". ucfirst($this->application))), $thead, $tFoot, $total);					
-		$this->vars["view"]       = $this->view("results", TRUE, "cpanel");
+		$this->vars["search"] 	  = getSearch(); 			
+		$this->vars["view"]       = $this->view("results", TRUE, $this->application);
 		
 		$this->render("content", $this->vars);
 	}

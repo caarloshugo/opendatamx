@@ -33,6 +33,7 @@ class Users_Model extends ZP_Model {
 		}
 		
 		if($action === "all") {
+			
 			return $this->all($trash, $order, $limit);
 		} elseif($action === "edit") {
 			return $this->edit();															
@@ -44,12 +45,13 @@ class Users_Model extends ZP_Model {
 	}
 	
 	private function all($trash, $order, $limit) {
+		$fields = "ID_User, Username, Email, Website, Situation";
 		$this->Db->select("ID_User, Username, Email, Website, Avatar, Points");
 
 		if(!$trash) {
-			return (SESSION("ZanUserPrivilegeID") === 1) ? $this->Db->findBySQL("Situation != 'Deleted'", $this->table, NULL, $order, $limit) : $this->Db->findBySQL("ID_User = '". SESSION("ZanuserID") ."' AND Situation != 'Deleted'", $this->table, NULL, $order, $limit);
+			return (SESSION("ZanUserPrivilegeID") === 1) ? $this->Db->findBySQL("Situation != 'Deleted'", $this->table, $fields, NULL, $order, $limit) : $this->Db->findBySQL("ID_User = '". SESSION("ZanuserID") ."' AND Situation != 'Deleted'", $this->table, $fields, NULL, $order, $limit);
 		} else {
-			return (SESSION("ZanUserPrivilegeID") === 1) ? $this->Db->findBy("Situation", "Deleted", $this->table, NULL, $order, $limit) : $this->Db->findBySQL("ID_User = '". SESSION("ZanAdminID") ."' AND Situation = 'Deleted'", $this->table, NULL, $order, $limit);
+			return (SESSION("ZanUserPrivilegeID") === 1) ? $this->Db->findBy("Situation", "Deleted", $this->table, $fields, NULL, $order, $limit) : $this->Db->findBySQL("ID_User = '". SESSION("ZanAdminID") ."' AND Situation = 'Deleted'", $this->table, $fields, NULL, $order, $limit);
 		}
 	}
 	
@@ -461,11 +463,8 @@ class Users_Model extends ZP_Model {
 	}
 	
 	public function getByID($ID) {
-		$fields  = "ID_User, ID_Privilege, Username, Pwd, Email, Website, Avatar, Points, Sign, Messages, Recieve_Messages, Topics, Replies, ";
-		$fields .= "Comments, Codes, Tutorials, Jobs, Suscribed, Start_Date, Code, CURP, RFC, Name, Age, Title, Address, Zip, Phone, Mobile, ";
-		$fields .= "Gender, Relationship, Birthday, Country, District, City, Technologies, Twitter, Facebook, Linkedin, Viadeo, Situation";
-
-		$data = $this->Db->find($ID, $this->table, $fields);
+		$fields = "ID_User, ID_Privilege, Username, Pwd, Email, Situation";
+		$data   = $this->Db->find($ID, $this->table, $fields);
 		
 		return $data;
 	}
