@@ -75,7 +75,7 @@
 							<a href="<?php print get('webURL'); ?>/organizaciones" title="Organizaciones de la sociedad civil"><span class="bold">Organizaciones de la sociedad civil</span> - clic aqu&iacute;</a>
 						</div>
 						<div class="buttons hackrsbtn">
-							<a href="#registro" title="Registro Hackers"><span class="bold">Registro Hackers</span></a>
+							<a href="#registro" title="Registro Hackers"><span class="bold">Registro Participantes</span></a>
 						</div>
 					</div>
 				</div>
@@ -86,10 +86,15 @@
 					<div id="logo-menu"><a href="#opendata"><img src="<?php print $this->themePath; ?>/css/images/logo-opendata.png" title="OpenDataMX"/></a></div>
 					<ul id="menu-ul">
 						<li><a href="#programa" title="Programa">Programa</a></li>
-						<li><a href="<?php print get('webURL'); ?>/organizaciones" title="Registro Organizaciones">Registro Osc's</a></li>
-						<li><a href="#registro" title="Registro Hackers">Registro Hackers</a></li>
+						<li>
+							<a href="">Registro</a>
+							<ul>
+								<li><a href="<?php print get('webURL'); ?>/organizaciones">Registro Organizaciones</a></li>
+								<li><a href="#registro">Registro Participantes</a></li>
+							</ul>
+						</li>
 						<li><a href="#necesidades" title="Ejemplos de retos">Retos</a></li>
-						<li><a href="#data-sets" title="Data Sets">Data Sets</a></li>
+						<li><a href="#data-sets" title="Datasets">Datasets</a></li>
 						<li><a href="<?php print get('webURL'); ?>/blog" title="OpenData Blog">Blog</a></li>
 					</ul>
 				</div>
