@@ -170,7 +170,7 @@
 								<span class="bold">Potencial:</span> El dataset tiene información por municipio, superficie apoyada y monto, desagregado por programa.
 								<span class="bold">Datasets:</span> 
 								<a href="http://thedatahub.org/es/dataset/ccmss/resource/d009e5c6-20aa-4320-8bef-40b624dc66f1" title="Datasets">[thedatahub]</a>
-								<a href="https://github.com/opendatamx/datasetsagosto2012" title="Datasets">[github]</a>
+								<a href="https://github.com/opendatamx/datasetsagosto2012/tree/master/CCMSS" title="Datasets">[github]</a>
 							</span>
 							</span>
 						</li>
@@ -181,7 +181,7 @@
 				
 				<div class="clear"></div>
 				
-				<span>Liga del repositorio de Datasets <a href="" title="">Repositorio de Datasets</a></span>
+				<span>Liga del repositorio de Datasets <a href="https://github.com/opendatamx/datasetsagosto2012" title="OpenDataMX">Repositorio de Datasets</a></span>
 			</div>
 			
 			<div class="clear"></div>
