@@ -90,7 +90,7 @@
 							<a href="">Registro</a>
 							<ul>
 								<li><a href="<?php print get('webURL'); ?>/organizaciones">Registro Organizaciones</a></li>
-								<li><a href="#registro">Registro Participantes</a></li>
+								<li class="border-li"><a href="#registro">Registro Participantes</a></li>
 							</ul>
 						</li>
 						<li><a href="#necesidades" title="Ejemplos de retos">Retos</a></li>
