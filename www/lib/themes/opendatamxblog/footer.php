@@ -13,7 +13,7 @@
 				</a>
 				
 			</div>
-			<span class="copy">&copy;OpendataMX</span>
+			<span class="copy">&copy;OpendataMX</span><span class="aviso"><a href="<?php print get('webURL'); ?>/aviso" title="Aviso de privacidad">Aviso de privacidad</a></span>
 		</div>
 	</div>
 	<script language="javascript" src ="<?php print $this->themePath; ?>/js/social.js"></script>

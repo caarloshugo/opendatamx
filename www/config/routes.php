@@ -21,4 +21,11 @@ $routes = array(
 			"method"	  => "orgs",
 			"params"	  => array()
 		),
+	2 => array(
+			"pattern"	  => "/^aviso/",
+			"application" => "default",
+			"controller"  => "default",
+			"method"	  => "aviso",
+			"params"	  => array()
+		),
 );

@@ -27,9 +27,16 @@ class Default_Controller extends ZP_Controller {
 		$this->render("content", $vars);
 	}
 	
+	public function aviso() {
+		$this->Templates->theme("opendatamxblog");
+		$vars["view"] = $this->view("aviso", TRUE);
+		
+		$this->render("content", $vars);
+	}
+	
 	public function import() {
-		$this->Default_Model = $this->model("Default_Model");
-		$this->Default_Model->import();
+		//$this->Default_Model = $this->model("Default_Model");
+		//$this->Default_Model->import();
 	}
 
 }

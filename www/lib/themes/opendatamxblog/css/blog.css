@@ -84,7 +84,7 @@ hr { float:left; width:299px; height:2px; background-color:#e5e5e5; margin:0; to
 #logos { float:left; margin:45px 0 0 160px; width:100%; height:auto; }
 .logo { text-decoration:none; float:left; overflow:hidden; margin:0 0 0 100px; }
 .logo img { border:none; }
-.copy { float:left; color:#fff; width:100%; margin-top:15px; font-size:14px; text-align:center; }
+.copy { float:left; color:#fff; width:100%; margin-top:10px; font-size:14px; text-align:center; }
 .buttons a { text-decoration:none; cursor:pointer; float:left; color:#fff; font-size:20px; margin-top:7px; padding-left:30px; font-weight:bold; }
 .twtr-widget, .twtr-doc { height:358px !important; }
 .logo-twitter  { margin-left:10px; }
@@ -265,3 +265,6 @@ transform: rotate(3deg) scale(1.2);
 -o-transform: rotate(2deg) scale(1.2);
 transform: rotate(2deg) scale(1.2);
 }
+
+.aviso { float:left; color:#fff; width:100%; margin-top:5px; font-size:14px; text-align:center; ; }
+.aviso a { text-decoration:none; color:#fff;}
