@@ -94,6 +94,15 @@
 				</div>
 				
 				<div id="cont-program">
+					<span class="square"></span><span class="square-text">Mi&eacute;rcoles 22 de Agosto de 2012</span>
+					<table class="table-program">
+						<tr>
+							<td class="timetable">17:00 - 19:00</td>
+							<td class="table-msg">Sesi&oacute;n informativa / Presentaci&oacute;n de datasets</td>
+						</tr>
+					</table>
+					
+					<div class="separator"></div>
 					<span class="square"></span><span class="square-text">Viernes 24 de Agosto de 2012</span>
 					<table class="table-program">
 						<tr>
