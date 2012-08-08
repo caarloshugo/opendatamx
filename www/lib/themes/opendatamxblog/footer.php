@@ -9,7 +9,7 @@
 				</a>
 				
 				<a href="#socialtic" title="SocialTIC" class="logo">
-					<img src="<?php print $this->themePath; ?>/css/images/logo-socialtic.png" title="SocialTIC">
+					<img src="<?php print $this->themePath; ?>/css/images/logo300_standard_blanco.png" title="SocialTIC">
 				</a>
 				
 			</div>
