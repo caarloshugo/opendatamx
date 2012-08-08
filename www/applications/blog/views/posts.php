@@ -38,9 +38,10 @@ if(is_array($posts)) {
 			<div class="clear"></div>
 					
 			<div class="post-content">
+				<?php $content = "";?> 
 				<?php $content = str_replace("<div>", "<p>", $post["Content"]);?>
-				<?php $content = str_replace("</div>", "</p>", $post["Content"]);?>
-				<?php echo decode(bbCode(pagebreak($content, $URL))); ?>
+				<?php $content = str_replace("</div>", "</p>", $content);?>
+				<?php echo decode(pagebreak($content, $URL)); ?>
 			</div>
 
 			<div class="post-social">		
