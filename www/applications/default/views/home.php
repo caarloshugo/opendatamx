@@ -166,7 +166,7 @@
 						<li>
 							<span class="li-title">Financiamiento a la actividad forestal por programa 2011</span>
 							<span class="desc">
-								<span class="bold">Organizacion:</span> Consejo Civil Mexicano para la Silvicultura Sostenible<br />
+								<span class="bold">Organizaci&oacute;n:</span> Consejo Civil Mexicano para la Silvicultura Sostenible<br />
 								<span class="bold">Potencial:</span> El dataset tiene información por municipio, superficie apoyada y monto, desagregado por programa.
 								<span class="bold">Datasets:</span> 
 								<a href="http://thedatahub.org/es/dataset/ccmss/resource/d009e5c6-20aa-4320-8bef-40b624dc66f1" title="Datasets">[thedatahub]</a>
@@ -174,8 +174,28 @@
 							</span>
 							</span>
 						</li>
-						<li><span>Block 2</span></li>
-						<li><span>Block 3</span></li>
+						<li>
+							<span class="li-title">Relaci&oacute;n de Ni&ntilde;as, Ni&ntilde;os y Adolescentes seleccionados para ocupar beca 2011</span>
+							<span class="desc">
+								<span class="bold">Organizaci&oacute;n:</span> Desarrollo Integral de la Familia (DIF)<br />
+								<span class="bold">Potencial:</span> El dataset tiene informaci&oacute;n de cada beca otorgada por municipio en el programa del 2011.
+								<span class="bold">Datasets:</span> 
+								<a href="http://thedatahub.org/en/dataset/dif/resource/8c9f2361-1158-4d07-83ee-b572b3392112" title="Datasets">[thedatahub]</a>
+								<a href="https://github.com/opendatamx/datasetsagosto2012/tree/master/DIF" title="Datasets">[github]</a>
+							</span>
+							</span>
+						</li>
+						<li>
+							<span class="li-title">Educaci&oacute;n Ind&iacute;gena</span>
+							<span class="desc">
+								<span class="bold">Organizaci&oacute;n:</span> Programa de Educaci&oacute;n B&aacute;sica para Ni&ntilde;as y Ni&ntilde;os Migrantes  (PRONIM)<br />
+								<span class="bold">Potencial:</span> Total de docentes, escuelas, alumnos, servicios, alumnos de secundaria, hist&oacute;rico de cobertura por g&eacute;nero e hist&oacute;rico de lenguas por entidad 2012 (corte 18 junio 2012). Docentes, escuelas y servicios del PRONIM 2012, 2011 y 2012. 
+								<span class="bold">Datasets:</span> 
+								<a href="http://thedatahub.org/en/dataset/pronim/resource/47cb798f-73e3-42d6-a889-024a5d3a9751" title="Datasets">[thedatahub]</a>
+								<a href="https://github.com/opendatamx/datasetsagosto2012/tree/master/PRONIM" title="Datasets">[github]</a>
+							</span>
+							</span>
+						</li>
 					</ul>
 				</div>
 				
@@ -193,7 +213,7 @@
 				
 				<div id="desc-datasets">
 					<span>Estos son los sets de datos con los que podremos trabajar<br />
-						durante el evento. Analizalos y utilizaos para lograr tu objetivo.
+						durante el evento. Analizalos y utilizalos para lograr tu objetivo.
 					</span>
 				</div>
 				

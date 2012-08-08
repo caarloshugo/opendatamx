@@ -23,7 +23,10 @@ if(is_array($post)) {
 		<div class="clear"></div>
 			
 		<div class="post-content">
-			<?php echo decode(bbCode($post["Content"])); ?>
+			<?php $content = "";?> 
+			<?php $content = str_replace("<div>", "<p>", $post["Content"]);?>
+			<?php $content = str_replace("</div>", "</p>", $content);?>
+			<?php echo decode(bbCode($content)); ?>
 		</div>
 
 		<div class="post-social">		
