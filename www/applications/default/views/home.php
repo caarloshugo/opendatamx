@@ -201,7 +201,7 @@
 				
 				<div class="clear"></div>
 				
-				<span>Liga del repositorio de Datasets <a href="https://github.com/opendatamx/datasetsagosto2012" title="OpenDataMX">Repositorio de Datasets</a></span>
+				<span>Liga del repositorio de Datasets <a href="https://github.com/opendatamx/datasetsagosto2012" title="Repositorio de Datasets OpenDataMX">Repositorio de Datasets</a></span>
 			</div>
 			
 			<div class="clear"></div>
