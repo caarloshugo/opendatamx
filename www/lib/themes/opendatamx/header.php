@@ -32,7 +32,7 @@
 							  search: 'OpenDataMX',
 							  interval: 30000,
 							  title: '@OpenDataMX',
-							  subject: '#OpenDataMX #Hackaton',
+							  subject: 'Abriendo el gobierno un bit a la vez',
 							  width: 'auto',
 							  height: 'auto',
 							  theme: {
