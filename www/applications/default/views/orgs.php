@@ -1,6 +1,6 @@
 <div class="center0">
 	<div class="buttons convoc">
-		<a href="<?php print get('webURL'); ?>/ConvocatoriaOSCs.pdf" title="Descargar Convocatoria">Descargar Convocatoria</a>
+		<a href="<?php print get('webURL'); ?>/ConvocaOPENDATA(OSC).pdf" title="Descargar Convocatoria">Descargar Convocatoria</a>
 	</div>
 </div>
 

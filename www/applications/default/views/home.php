@@ -153,6 +153,12 @@
 				<div id="form-registro">
 					<iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dGlULVRFSW1RTnkwb3pUQmxFQm4tSXc6MQ" width="760" height="640" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 				</div>
+				
+				<div class="clear"></div>
+				
+				<div class="buttons hacks">
+					<a href="<?php print get('webURL'); ?>/ConvocaOPENDATA(PROGRAMADORES).pdf" title="Descargar Convocatoria">Descargar Convocatoria</a>
+				</div>
 			</div>
 			
 			<div class="clear"></div>

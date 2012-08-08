@@ -170,3 +170,4 @@ hr { float:left; width:299px; height:2px; background-color:#e5e5e5; margin:0; to
 
 .aviso { float:left; color:#fff; width:100%; margin-top:5px; font-size:14px; text-align:center; ; }
 .aviso a { text-decoration:none; color:#fff;}
+.hacks { width:280px !important; margin:20px 0 0 400px; }
