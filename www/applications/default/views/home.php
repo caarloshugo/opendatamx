@@ -88,7 +88,7 @@
 					
 					<div id="institutions">
 						<div class="buttons">
-							<a href="#programa" title="Programa">Descargar programa</a>
+							<a href="<?php print get('webURL'); ?>/DescripcionOPEN.pdf" title="Programa">Descargar programa</a>
 						</div>
 					</div>
 				</div>
@@ -130,6 +130,24 @@
 						<tr>
 							<td class="timetable">21:00</td>
 							<td class="table-msg">Resultados y premiaci&oacute;n</td>
+						</tr>
+					</table>
+					
+					<div class="separator"></div>
+		
+					<span class="square"></span><span class="square-text">Premios</span>
+					<table class="table-program premios">
+						<tr>
+							<td class="timetable">Primer lugar:</td>
+							<td class="table-msg">$30,000</td>
+						</tr>
+						<tr>
+							<td class="timetable">Segundo lugar:</td>
+							<td class="table-msg">$20,000</td>
+						</tr>
+						<tr>
+							<td class="timetable">Tercer lugar:</td>
+							<td class="table-msg">$10,000</td>
 						</tr>
 					</table>
 				</div>

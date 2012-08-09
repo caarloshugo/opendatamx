@@ -61,6 +61,8 @@ body { font-family: "Droid Sans", "PT Sans Caption", arial; overflow-x:hidden;  
 
 #footer { float:left; width:1200px; height:152px; border-top:2px solid #333; border-bottom:5px solid #83d31f; background:url(images/background-footer.png); background-repeat:x-repeat; }
 .table-program { width:100%; }
+.premios tr td { margin:5px 0 0 10px !important; }
+
 .table-program tr td { float:left; color:#656565; margin:10px 0 0 10px; height:auto; }
 .table-program tr .table-msg { width:235px; }
 .table-program tr .timetable { width:100px; }
