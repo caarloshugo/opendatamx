@@ -1,6 +1,13 @@
 <?php if(segment(0) != "organizaciones") { ?>
 <div id="right">	
 	<div id="map-right">
+		<span class="sectio-sidebar">
+			Viernes 24 y S&aacute;bado 25 de Agosto de 2012<br /><br />
+			
+			Universidad de la comunicación, Zacatecas 120,<br />
+			Colonia Roma, C.P. 06700, México D.F.
+		</span><br /><br />
+		
 		<iframe class="map" width="250" height="215" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.mx/maps?f=q&amp;source=embed&amp;hl=es&amp;geocode=&amp;q=Universidad+de+la+Comunicacion,+Roma+Norte,+Cuauht%C3%A9moc,+Ciudad+de+M%C3%A9xico&amp;aq=0&amp;oq=universidad+de+la+comunicacion&amp;sll=19.418557,-99.168091&amp;sspn=0.02732,0.055275&amp;ie=UTF8&amp;hq=Universidad+de+la+Comunicacion,+Roma+Norte,+Cuauht%C3%A9moc,+Ciudad+de+M%C3%A9xico&amp;t=m&amp;ll=19.418557,-99.168091&amp;spn=0.008702,0.023389&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
 		<br/><small><a href="https://maps.google.com.mx/maps?f=q&amp;source=embed&amp;hl=es&amp;geocode=&amp;q=Universidad+de+la+Comunicacion,+Roma+Norte,+Cuauht%C3%A9moc,+Ciudad+de+M%C3%A9xico&amp;aq=0&amp;oq=universidad+de+la+comunicacion&amp;sll=19.418557,-99.168091&amp;sspn=0.02732,0.055275&amp;ie=UTF8&amp;hq=Universidad+de+la+Comunicacion,+Roma+Norte,+Cuauht%C3%A9moc,+Ciudad+de+M%C3%A9xico&amp;t=m&amp;ll=19.418557,-99.168091&amp;spn=0.008702,0.023389&amp;z=15&amp;iwloc=A" style="color:#0000FF;text-align:left">Ver mapa más grande</a></small>
 	</div>
@@ -42,7 +49,7 @@
 	
 	<div class="clear"></div>
 	
-	<div id="tag_holder">
+	<div id="tag_holder">			
 		<a href="<?php print get('webURL'); ?>/blog/tag/opendatamx-2011" class="tag">OpenDataMX 2011</a>
 		<!-- <a href="<?php print get('webURL'); ?>/blog/tag/opendatamx-americalatina-2011-mexico" class="tag">OpenDataMx Am&eacute;rica Latina 2011 M&eacute;xico</a> -->
 		<!-- <a href="<?php print get('webURL'); ?>/blog/tag/proyectos-hktn-infancia-2012" class="tag">Proyectos HKTN Infancia 2012</a> -->
