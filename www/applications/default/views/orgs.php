@@ -3,13 +3,18 @@
 		<a href="<?php print get('webURL'); ?>/ConvocaOPENDATA(OSC).pdf" title="Descargar Convocatoria">Descargar Convocatoria</a>
 	</div>
 </div>
+	
 
 			<div id="section-registro" class="section">
 				
 				<hr><div class="title"><a name="registro"></a>Registro</div><hr>
 				
 				<div class="clear"></div>
-			
+				
+				<div class="buttons ejemplo">
+					<a href="<?php print get('webURL'); ?>/RegistroEJEMPLO.pdf" title="Ejemplo de Registro">Ejemplo de Registro</a>
+				</div>
+				
 				<div id="desc-registro">
 					<span>
 						Llena los datos que te piden para completar tu registro.<br />

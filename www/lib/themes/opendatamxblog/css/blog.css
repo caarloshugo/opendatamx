@@ -130,6 +130,7 @@ hr { float:left; width:299px; height:2px; background-color:#e5e5e5; margin:0; to
 }
 
 .convoc { width:300px !important; }
+.ejemplo { width:270px !important; }
 .center0 { margin-left: 410px; }
 .carrusel li .desc { font-size:16px; display:inline !important; float:left; text-align:justify !important; padding:0 10px 0 10px; margin-top:10px; }
 .carrusel li .desc .bold { margin-top:5px; }
