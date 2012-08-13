@@ -254,15 +254,22 @@
 				
 				<div id="datasets">
 					<div class="dataset">
-						<span class="title-dataset">Datasets ejemplo</span>
-						<span class="desc-dataset">En la siguiente liga podran encontrar los datasets de ejemplo</span>
-						<span class="url-dataset"><a href="" title="Fundar">http://ejemplo.org.mx</a></span>
+						<span class="title-dataset">Educaci&oacute;n Ind&iacute;gena</span>
+						<span class="desc-dataset">Programa de Educaci&oacute;n B&aacute;sica para Ni&ntilde;as y Ni&ntilde;os Migrantes (PRONIM)</span>
+						
+						<span class="url-dataset">
+							<a href="http://thedatahub.org/en/dataset/pronim/resource/47cb798f-73e3-42d6-a889-024a5d3a9751" title="Datasets">[thedatahub]</a>
+							<a href="https://github.com/opendatamx/datasetsagosto2012/tree/master/PRONIM" title="Datasets">[github]</a>
+						</span>
 					</div>
 					
 					<div class="dataset">
-						<span class="title-dataset">Datasets ejemplo</span>
-						<span class="desc-dataset">En la siguiente liga podran encontrar los datasets de ejemplo</span>
-						<span class="url-dataset"><a href="" title="Fundar">http://ejemplo.org.mx</a></span>
+						<span class="title-dataset">Financiamiento a la actividad forestal por programa 2011</span>
+						<span class="desc-dataset">El dataset tiene información por municipio, superficie apoyada y monto, desagregado por programa.</span>
+						<span class="url-dataset">
+							<a href="http://thedatahub.org/es/dataset/ccmss/resource/d009e5c6-20aa-4320-8bef-40b624dc66f1" title="Datasets">[thedatahub]</a>
+							<a href="https://github.com/opendatamx/datasetsagosto2012/tree/master/CCMSS" title="Datasets">[github]</a>
+						</span>
 					</div>
 					
 					<div class="dataset">
