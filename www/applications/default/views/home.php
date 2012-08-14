@@ -273,17 +273,23 @@
 					</div>
 					
 					<div class="dataset">
-						<span class="title-dataset">Datasets ejemplo</span>
-						<span class="desc-dataset">En la siguiente liga podran encontrar los datasets de ejemplo</span>
-						<span class="url-dataset"><a href="" title="Fundar">http://ejemplo.org.mx</a></span>
+						<span class="title-dataset">PRONABES</span>
+						<span class="desc-dataset">Base de datos de becarios - clico escolar 2006-2007</span>
+						<span class="url-dataset">
+							<a href="http://thedatahub.org/en/dataset/pronabes/resource/b2276123-7217-4aa1-90ca-f064267d427a" title="Datasets">[thedatahub]</a>
+							<a href="https://github.com/opendatamx/datasetsagosto2012" title="Datasets">[github]</a>
+						</span>
 					</div>
 					
 					<div class="clear"></div>
 					
 					<div class="dataset">
-						<span class="title-dataset">Datasets ejemplo</span>
-						<span class="desc-dataset">En la siguiente liga podran encontrar los datasets de ejemplo</span>
-						<span class="url-dataset"><a href="" title="Fundar">http://ejemplo.org.mx</a></span>
+						<span class="title-dataset">Procampo</span>
+						<span class="desc-dataset">Base de datos del programa Procampo</span>
+						<span class="url-dataset">
+							<a href="http://thedatahub.org/en/dataset/procampo/resource/5dac891f-bd18-47b5-90ba-a24b2419ac7b" title="Datasets">[thedatahub]</a>
+							<a href="https://github.com/opendatamx/datasetsagosto2012" title="Datasets">[github]</a>
+						</span>
 					</div>
 					
 					<div class="dataset">
@@ -299,5 +305,4 @@
 					</div>
 					
 				</div>
-			
 			</div>
