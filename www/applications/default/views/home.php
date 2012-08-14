@@ -284,8 +284,8 @@
 					<div class="clear"></div>
 					
 					<div class="dataset">
-						<span class="title-dataset">Procampo</span>
-						<span class="desc-dataset">Base de datos del programa Procampo</span>
+						<span class="title-dataset">PROCAMPO</span>
+						<span class="desc-dataset">Base de datos del programa PROCAMPO</span>
 						<span class="url-dataset">
 							<a href="http://thedatahub.org/en/dataset/procampo/resource/5dac891f-bd18-47b5-90ba-a24b2419ac7b" title="Datasets">[thedatahub]</a>
 							<a href="https://github.com/opendatamx/datasetsagosto2012" title="Datasets">[github]</a>
