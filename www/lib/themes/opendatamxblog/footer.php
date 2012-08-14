@@ -12,6 +12,9 @@
 					<img src="<?php print $this->themePath; ?>/css/images/logo300_standard_blanco.png" title="SocialTIC">
 				</a>
 				
+				<a href="http://www.uc.edu.mx" title="Universidad de la comunicacion" class="logo uni-logo2">
+					<img src="<?php print $this->themePath; ?>/css/images/logo-universidad.png" title="Universidad de la comunicacion">
+				</a>
 			</div>
 			<span class="copy">&copy;OpendataMX</span><span class="aviso"><a href="<?php print get('webURL'); ?>/aviso" title="Aviso de privacidad">Aviso de privacidad</a></span>
 		</div>

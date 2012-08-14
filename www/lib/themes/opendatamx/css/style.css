@@ -97,7 +97,8 @@ hr { float:left; width:299px; height:2px; background-color:#e5e5e5; margin:0; to
 .arrow_box:after {  border: solid transparent; content: " "; height: 0; width: 0; position: absolute; pointer-events: none; } 
 .arrow_box:after { border-top-color: #83d31f; border-width:15px; margin-left:181px; }
 
-#logos { float:left; margin:45px 0 0 160px; width:100%; height:auto; }
+#logos { float:left; margin:45px 0 0 50px; width:100%; height:auto; }
+.uni-logo2 { margin-top:-18px !important; }
 .logo { text-decoration:none; float:left; overflow:hidden; margin:0 0 0 100px; }
 .logo img { border:none; }
 .copy { float:left; color:#fff; width:100%; margin-top:10px; font-size:14px; text-align:center; }
