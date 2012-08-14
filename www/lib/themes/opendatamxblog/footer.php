@@ -12,7 +12,7 @@
 					<img src="<?php print $this->themePath; ?>/css/images/logo300_standard_blanco.png" title="SocialTIC">
 				</a>
 				
-				<a href="http://www.uc.edu.mx" title="Universidad de la comunicacion" class="logo uni-logo2">
+				<a href="http://www.uc.edu.mx/ubicacion" title="Universidad de la comunicacion" class="logo uni-logo2">
 					<img src="<?php print $this->themePath; ?>/css/images/logo-universidad.png" title="Universidad de la comunicacion">
 				</a>
 			</div>
