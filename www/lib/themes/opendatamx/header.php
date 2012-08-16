@@ -4,6 +4,7 @@
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<title><?php print $this->getTitle(); ?></title>
 		<link href="<?php print $this->themePath; ?>/css/style.css" rel="stylesheet">
+		<link rel="image_src" href="<?php print $this->themePath; ?>/css/images/logo-opendata.png" />
 		<?php print $this->getCSS(); ?>
 		<script language="javascript" src ="<?php print $this->themePath; ?>/js/jquery.js"></script>
 		<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
