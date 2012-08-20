@@ -107,7 +107,7 @@
 					<table class="table-program">
 						<tr>
 							<td class="timetable">8:00 - 8:30</td>
-							<td class="table-msg">Inaguraci&oacute;n</td>
+							<td class="table-msg">Inauguraci&oacute;n</td>
 						</tr>
 						<tr>
 							<td class="timetable">8:30</td>
