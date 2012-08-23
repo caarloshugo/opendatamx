@@ -123,12 +123,9 @@ Fuente: Articulo19</p>
 <p>Base de datos con informaci&oacute;n de los diputados (ubicaci&oacute;n, contacto, etc.. )</p>
 <p><a href="https://github.com/downloads/opendatamx/datasetsagosto2012/Fichas%20de%20diputados%20(versi%C3%B3n%20actualizable).xls" title="DataSet">Descargar</a></p>
 
-
-
 <h2><a name="fichas-diputados"></a>Encuesta nacional salud y nutrici&oacute;n</h2>
 <p>
-<a href="http://www.insp.mx/encuesta-nacional-salud-y-nutricion-2006.html">http://www.insp.mx/encuesta-nacional-salud-y-nutricion-2006.html</a>
-<a href="http://www.microrregiones.gob.mx/catloc">http://www.microrregiones.gob.mx/catloc</a>
+<a href="http://www.insp.mx/encuesta-nacional-salud-y-nutricion-2006.html">http://www.insp.mx/encuesta-nacional-salud-y-nutricion-2006.html</a><br>
+<a href="http://www.microrregiones.gob.mx/catloc">http://www.microrregiones.gob.mx/catloc</a><br>
 <p><a href="https://github.com/downloads/opendatamx/datasetsagosto2012/financiamiento.rar" title="DataSet">Descargar</a></p>
 </p>
-<p><a href="https://github.com/downloads/opendatamx/datasetsagosto2012/Fichas%20de%20diputados%20(versi%C3%B3n%20actualizable).xls" title="DataSet">Descargar</a></p>
