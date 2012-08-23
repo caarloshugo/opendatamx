@@ -129,3 +129,7 @@ Fuente: Articulo19</p>
 <a href="http://www.microrregiones.gob.mx/catloc">http://www.microrregiones.gob.mx/catloc</a><br>
 <p><a href="https://github.com/downloads/opendatamx/datasetsagosto2012/financiamiento.rar" title="DataSet">Descargar</a></p>
 </p>
+
+<p><h2>Downloads [github]</h2>
+<a href="https://github.com/opendatamx/datasetsagosto2012/downloads" title="Datasets">Datasets</a>
+</p>
