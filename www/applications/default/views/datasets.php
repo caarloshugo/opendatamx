@@ -105,7 +105,7 @@ Fuente: Articulo19</p>
 
 <h2><a name="cartografia-nacional"></a>Cartograf&iacute;a nacional</h2>
 <p>Cartograf&iacute;a nacional por estado, municipio, colonia, distrito, sección en formatos (dbf, shp, prj, shm, xml)</p>
-<p><a href="https://github.com/downloads/opendatamx/datasetsagosto2012/cartografia.zip" title="DataSet">Descargar</a></p>
+<p><a href="https://github.com/downloads/opendatamx/datasetsagosto2012/cartografia_part1.zip" title="DataSet">Descargar</a></p>
 
 <h2><a name="coordenadas-programas-inversion"></a>COORDENADAS Programas y Proyectos de Inversi&ocaute;n</h2>
 <p>COORDENADAS Programas y Proyectos de Inversi&oacute;n</p>
@@ -118,3 +118,7 @@ Fuente: Articulo19</p>
 <h2><a name="informacion-desempeno"></a>Informaci&oacute;n del desempe&ntilde;o 2008-2011</h2>
 <p>Informaci&oacute;n del desempe&ntilde;o 2008-2011</p>
 <p><a href="https://github.com/downloads/opendatamx/datasetsagosto2012/Informacion-del-desempeno-2008-2011.zip" title="DataSet">Descargar</a></p>
+
+<h2><a name="fichas-diputados"></a>Fichas de diputados</h2>
+<p>Base de datos con informaci&oacute;n de los diputados (ubicaci&oacute;n, contacto, etc.. )</p>
+<p><a href="https://github.com/downloads/opendatamx/datasetsagosto2012/Fichas%20de%20diputados%20(versi%C3%B3n%20actualizable).xls" title="DataSet">Descargar</a></p>
