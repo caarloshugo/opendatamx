@@ -103,3 +103,18 @@ Fuente: Articulo19</p>
 <p>Base de datos de la prieba de Enlace de la SEP del periodo 2006-2010</p>
 <p><a href="https://github.com/downloads/opendatamx/datasetsagosto2012/bckcte.zip" title="DataSet">Descargar</a></p>
 
+<h2><a name="cartografia-nacional"></a>Cartograf&iacute;a nacional</h2>
+<p>Cartograf&iacute;a nacional por estado, municipio, colonia, distrito, sección en formatos (dbf, shp, prj, shm, xml)</p>
+<p><a href="https://github.com/downloads/opendatamx/datasetsagosto2012/cartografia.zip" title="DataSet">Descargar</a></p>
+
+<h2><a name="coordenadas-programas-inversion"></a>COORDENADAS Programas y Proyectos de Inversi&ocaute;n</h2>
+<p>COORDENADAS Programas y Proyectos de Inversi&oacute;n</p>
+<p><a href="https://github.com/downloads/opendatamx/datasetsagosto2012/COORDENADAS%20Programas%20y%20Proyectos%20de%20Inversi%C3%B3n.xlsx" title="DataSet">Descargar</a></p>
+
+<h2><a name="presupuesto-analitico"></a>Presupuesto anal&iacute;tico 2007 2012</h2>
+<p>Presupuesto anal&iacute;tico 2007 2012</p>
+<p><a href="https://github.com/downloads/opendatamx/datasetsagosto2012/Presupuesto-analitico-2007-2012.zip" title="DataSet">Descargar</a></p>
+
+<h2><a name="informacion-desempeno"></a>Informaci&oacute;n del desempe&ntilde;o 2008-2011</h2>
+<p>Informaci&oacute;n del desempe&ntilde;o 2008-2011</p>
+<p><a href="https://github.com/downloads/opendatamx/datasetsagosto2012/Informacion-del-desempeno-2008-2011.zip" title="DataSet">Descargar</a></p>
