@@ -103,11 +103,3 @@ Fuente: Articulo19</p>
 <p>Base de datos de la prieba de Enlace de la SEP del periodo 2006-2010</p>
 <p><a href="https://github.com/downloads/opendatamx/datasetsagosto2012/bckcte.zip" title="DataSet">Descargar</a></p>
 
-<h2>Titulo</h2>
-<p>Descripcion</p>
-<p><a href="Descargar" title="DataSet">Descargar</a></p>
-
-<h2>Titulo</h2>
-<p>Descripcion</p>
-<p><a href="Descargar" title="DataSet">Descargar</a></p>
-
