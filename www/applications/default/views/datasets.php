@@ -107,7 +107,7 @@ Fuente: Articulo19</p>
 <p>Cartograf&iacute;a nacional por estado, municipio, colonia, distrito, sección en formatos (dbf, shp, prj, shm, xml)</p>
 <p><a href="https://github.com/downloads/opendatamx/datasetsagosto2012/cartografia_part1.zip" title="DataSet">Descargar</a></p>
 
-<h2><a name="coordenadas-programas-inversion"></a>COORDENADAS Programas y Proyectos de Inversi&ocaute;n</h2>
+<h2><a name="coordenadas-programas-inversion"></a>COORDENADAS Programas y Proyectos de Inversi&oacute;n</h2>
 <p>COORDENADAS Programas y Proyectos de Inversi&oacute;n</p>
 <p><a href="https://github.com/downloads/opendatamx/datasetsagosto2012/COORDENADAS%20Programas%20y%20Proyectos%20de%20Inversi%C3%B3n.xlsx" title="DataSet">Descargar</a></p>
 
@@ -124,8 +124,12 @@ Fuente: Articulo19</p>
 <p><a href="https://github.com/downloads/opendatamx/datasetsagosto2012/Fichas%20de%20diputados%20(versi%C3%B3n%20actualizable).xls" title="DataSet">Descargar</a></p>
 
 <h2><a name="infomex"></a>Sistema Infomex Gobierno Federal</h2>
-<p>En la siguiente liga podran encontrar los datasets del Sistema Infomex Gobierno Federal [Infomex]</p>
+<p>En la siguiente liga podran encontrar los datasets del Sistema Infomex Gobierno Federal</p>
 <p><a href="https://www.infomex.org.mx/gobiernofederal/homeOpenData.action" title="DataSet">[Infomex]</a></p> 
+
+<h2><a name="publicidad-oficial"></a>Publicidad Oficial</h2>
+<p>Base de datos de publicidad oficial del gobierno federal</p>
+<p><a href="https://github.com/downloads/opendatamx/datasetsagosto2012/publicidad_oficial.zip" title="DataSet">Descargar</a></p> 
  
 <h2><a name="encuesta-salud-nutricion"></a>Encuesta nacional salud y nutrici&oacute;n</h2>
 <p>
