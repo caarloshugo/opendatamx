@@ -246,7 +246,7 @@
 				
 				<div id="desc-datasets">
 					<span>Estos son los sets de datos con los que podremos trabajar<br />
-						durante el evento. Analizalos y utilizalos para lograr tu objetivo.
+						durante el evento. Analizalos y utilizalos para lograr tu objetivo. <a href="<?php print get('webURL'); ?>/datasets" title="Datasets">Ver todos</a>
 					</span>
 				</div>
 				

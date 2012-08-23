@@ -28,4 +28,11 @@ $routes = array(
 			"method"	  => "aviso",
 			"params"	  => array()
 		),
+	3 => array(
+			"pattern"	  => "/^datasets/",
+			"application" => "default",
+			"controller"  => "default",
+			"method"	  => "datasets",
+			"params"	  => array()
+		)
 );
