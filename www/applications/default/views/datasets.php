@@ -1,8 +1,8 @@
-<h2>Programa para la Protecci&oacute;n y el Desarrollo Integral de la Infancia</h2>
+<h2><a name="programa-infancia"></a>Programa para la Protecci&oacute;n y el Desarrollo Integral de la Infancia</h2>
 <p>Relación de ni&ntilde;as, ni&ntilde;os y adolescentes seleccionados para ocupar becas.<br> Fuente: DIF</p>
 <p><a href="https://github.com/downloads/opendatamx/datasetsagosto2012/DIF.zip">Descargar</a></p>
 
-<h2>PRONIM</h2>
+<h2><a name="pronim"></a>PRONIM</h2>
 <p>Base de datos del Programa de Educaci&oacute;n Preescolar y Primaria para Ni&ntilde;as y Ni&ntilde;os de Familias Jornaleras Agr&iacute;colas Migrantes, PRONIM 2010-2012</p>
 <p><a href="https://github.com/downloads/opendatamx/datasetsagosto2012/Pronim.zip" title="DataSet">Descargar</a></p>
 
