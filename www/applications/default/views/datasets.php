@@ -152,6 +152,10 @@ registrada la Secretaría de infraestructuras del Gobierno de Oaxaca.</p>
 <p>Base de denuncias e incidencia delictiva en M&eacute;xico (2000-2011)</p>
 <p><a href="https://github.com/downloads/opendatamx/datasetsagosto2012/Base%20de%20denuncias%20e%20incidencia%20delictiva%20en%20Me_xico%20(2000-2011).xlsx" title="DataSet">Descargar</a></p>
 
+<h2>Mapa de la rep&uacute;blica mexicana en SVG con nombres</h2>
+<p>Mapa de la rep&uacute;blica mexicana en SVG con nombres</p>
+<p><a href="https://github.com/downloads/opendatamx/datasetsagosto2012/svg%20-%20rep%20mexicana.zip" title="DataSet">Descargar</a></p>
+
  
 <h2><a name="encuesta-salud-nutricion"></a>Encuesta nacional salud y nutrici&oacute;n</h2>
 <p>
