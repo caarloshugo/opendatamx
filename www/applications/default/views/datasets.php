@@ -131,6 +131,14 @@ Fuente: Articulo19</p>
 <p>Base de datos de publicidad oficial del gobierno federal</p>
 <p><a href="https://github.com/downloads/opendatamx/datasetsagosto2012/publicidad_oficial.zip" title="DataSet">Descargar</a></p> 
  
+<h2><a name="montos-pemex"></a>Montos de contrataciones de PEMEX</h2>
+<p>Montos de contrataciones de PEMEX</p>
+<p><a href="http://www.funcionpublica.gob.mx/images/doctos/TRANSPARENCIA/Informes_de_Labores_E/5to_informe_labores_sfp.pdf" title="DataSet">Descargar</a></p> 
+ 
+ 
+
+ 
+ 
 <h2><a name="encuesta-salud-nutricion"></a>Encuesta nacional salud y nutrici&oacute;n</h2>
 <p>
 <a href="http://www.insp.mx/encuesta-nacional-salud-y-nutricion-2006.html">http://www.insp.mx/encuesta-nacional-salud-y-nutricion-2006.html</a><br>
