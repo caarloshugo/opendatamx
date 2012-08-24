@@ -135,7 +135,18 @@ Fuente: Articulo19</p>
 <p>Montos de contrataciones de PEMEX</p>
 <p><a href="http://www.funcionpublica.gob.mx/images/doctos/TRANSPARENCIA/Informes_de_Labores_E/5to_informe_labores_sfp.pdf" title="DataSet">Descargar</a></p> 
 
- 
+<h2>Bases de datos obra p&uacute;blica 2011 y 2012 de SINFRA, Gobierno de Oaxaca</h2>
+<p>Base de datos 2011 y 2012 de la obra pública que tiene
+registrada la Secretaría de infraestructuras del Gobierno de Oaxaca.</p>
+<p><a href="https://github.com/downloads/opendatamx/datasetsagosto2012/obrapublica.zip" title="DataSet">Descargar</a></p>
+
+<h2>Base de datos de fideicomisos</h2>
+<p>Fuente: M&eacute;xico Inf&oacute;rmate</p>
+<p><a href="https://github.com/downloads/opendatamx/datasetsagosto2012/Fideicomisos.zip" title="DataSet">Descargar</a></p>
+
+<h2>Matriz Informe M&eacute;xico Inform&aacute;te</h2>
+<p>Procuraci&oacute;n de justicia</p>
+<p><a href="https://github.com/downloads/opendatamx/datasetsagosto2012/Matriz%20Informe%20M%C3%A9xico%20Inform%C3%A1te23082012.xlsx" title="DataSet">Descargar</a></p> 
  
 <h2><a name="encuesta-salud-nutricion"></a>Encuesta nacional salud y nutrici&oacute;n</h2>
 <p>
