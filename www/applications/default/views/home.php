@@ -88,7 +88,7 @@
 					
 					<div id="institutions">
 						<div class="buttons">
-							<a href="<?php print get('webURL'); ?>/DescripcionOPEN.pdf" title="Programa">Descargar programa</a>
+							<a href="<?php print get('webURL'); ?>/OpenDataMXPrograma.pdf" title="Programa">Descargar programa</a>
 						</div>
 					</div>
 				</div>

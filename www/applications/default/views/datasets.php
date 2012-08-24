@@ -134,8 +134,6 @@ Fuente: Articulo19</p>
 <h2><a name="montos-pemex"></a>Montos de contrataciones de PEMEX</h2>
 <p>Montos de contrataciones de PEMEX</p>
 <p><a href="http://www.funcionpublica.gob.mx/images/doctos/TRANSPARENCIA/Informes_de_Labores_E/5to_informe_labores_sfp.pdf" title="DataSet">Descargar</a></p> 
- 
- 
 
  
  
