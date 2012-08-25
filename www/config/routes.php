@@ -34,5 +34,12 @@ $routes = array(
 			"controller"  => "default",
 			"method"	  => "datasets",
 			"params"	  => array()
+		),
+	4 => array(
+			"pattern"	  => "/^proyectos/",
+			"application" => "default",
+			"controller"  => "default",
+			"method"	  => "proyectos",
+			"params"	  => array()
 		)
 );

@@ -41,6 +41,14 @@ class Default_Controller extends ZP_Controller {
 		$this->render("content", $vars);
 	}
 	
+	public function proyectos() {
+		$this->Templates->theme("opendatamxblog");
+		$vars["view"] = $this->view("proyectos", TRUE);
+		
+		$this->render("content", $vars);
+	}
+	
+	
 	public function import() {
 		//$this->Default_Model = $this->model("Default_Model");
 		//$this->Default_Model->import();
