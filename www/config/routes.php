@@ -41,5 +41,14 @@ $routes = array(
 			"controller"  => "default",
 			"method"	  => "proyectos",
 			"params"	  => array()
+		),
+	5 => array(
+			"pattern"	  => "/^encuesta/",
+			"application" => "default",
+			"controller"  => "default",
+			"method"	  => "encuesta",
+			"params"	  => array()
 		)
+		
+		
 );
