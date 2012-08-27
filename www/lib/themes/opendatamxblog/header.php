@@ -33,7 +33,6 @@
 				<div id="logo-menu"><a href="<?php print get('webURL'); ?>"><img src="<?php print $this->themePath; ?>/css/images/logo-opendata.png" title="OpenDataMX"/></a></div>
 				<ul id="menu-ul">
 					<li><a href="<?php print get('webURL'); ?>#programa" title="Programa">Programa</a></li>
-					<li><a href="<?php print get('webURL'); ?>#registro" title="Registro Hackers">Registro Participantes</a></li>
 					<li><a href="<?php print get('webURL'); ?>#necesidades" title="Retos">Retos</a></li>
 					<li><a href="<?php print get('webURL'); ?>#data-sets" title="Datasets">Datasets</a></li>
 					<li><a href="<?php print get('webURL'); ?>/blog" title="OpenData Blog">Blog</a></li>
