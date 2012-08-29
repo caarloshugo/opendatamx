@@ -32,9 +32,9 @@
 			<div id="h-menu">
 				<div id="logo-menu"><a href="<?php print get('webURL'); ?>"><img src="<?php print $this->themePath; ?>/css/images/logo-opendata.png" title="OpenDataMX"/></a></div>
 				<ul id="menu-ul">
-					<li><a href="<?php print get('webURL'); ?>/foro" title="Foro">Foro</a></li>
-					<li><a href="<?php print get('webURL'); ?>/wiki" title="Wiki">Wiki</a></li>
-					<li><a href="<?php print get('webURL'); ?>/blog" title="OpenData Blog">Blog</a></li>
+				<li><a href="<?php print get('webURL'); ?>/blog" title="OpenDataMX Blog">Blog</a></li>
+					<li><a href="<?php print get('webURL'); ?>/foro" title="OpenDataMX Foro">Foro</a></li>
+					<li><a href="<?php print get('webURL'); ?>/wiki" title="OpenDataMX Wiki">Wiki</a></li>
 				</ul>
 			</div>
 			
